@@ -1,0 +1,1119 @@
+{
+  "source_base_path": "C:/Users/Lukas/Source/AssetStore/Animatron/Temp/.docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimationIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimationIndex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Animatron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Animatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronSystemGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Armature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Armature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.ArmatureRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.ArmatureRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.BaseColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.BaseColorProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CrossFadeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CrossFadeState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CrossFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CrossFader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CrossFaderSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CrossFaderSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Culled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Culled.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CullingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CullingMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CullingSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CullingSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.AnimatronEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.AnimatronEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.ArmatureRenderSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.ArmatureRenderSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.CrossFaderEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.CrossFaderEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.InertializerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.InertializerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.InstanceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.InstanceDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RenderBoundsSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RenderBoundsSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.GeneratePrefabMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.GeneratePrefabMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Joint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Joint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Skin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.Skin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.RigImporterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.RigImporterEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.EntitiesExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.EntitiesExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Float3Inertia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Float3Inertia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.Skin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.Skin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.BaseColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.BaseColorProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.CrossFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.CrossFader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.EntityBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.EntityBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Inertializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.Inertializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.ReadAnimatronTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.ReadAnimatronTransformSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Rig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.Rig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.RigTransformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.RigTransformType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Skin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.Skin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.WriteAnimatronTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.WriteAnimatronTransformSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.WriteRenderMeshArrayTransformSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.WriteRenderMeshArrayTransformSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Hybrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.InertializationCoefficients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.InertializationCoefficients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Inertializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Inertializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.InertializerSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.InertializerSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.JointInertia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.JointInertia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.JointInertiaSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.JointInertiaSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.JointPose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.JointPose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Motion.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Motion.Animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Motion.PoseTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Motion.PoseTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Motion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Motion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.MotionRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.MotionRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.PoseSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.PoseSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.QuaternionInertia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.QuaternionInertia.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.RigidTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.RigidTransform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.BlendTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.BlendTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.BlendTestSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.BlendTestSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.AnimatorPlayAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.AnimatorPlayAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.BlendTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.BlendTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.NormalTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.NormalTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.TestMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.TestMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamShift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamShift.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamSwitcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamSwitcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.NormalTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.NormalTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.NormalTestSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.NormalTestSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Samples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Samples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SamplingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SamplingMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Skin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Skin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinBlendWeightCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinBlendWeightCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinMatrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinMatrixBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinMatrixBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinMatrixBufferIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinMatrixBufferIndex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinRef.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.SkinSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.SkinSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.TimePower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.TimePower.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.Editor.InstanceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.Editor.InstanceDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.Editor.RenderMeshArrayEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.Editor.RenderMeshArrayEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.RenderFilterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.RenderFilterSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring/animatron.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring/animatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring/cross-fader.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring/cross-fader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring/inertializer.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring/inertializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring/render-mesh-array.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring/render-mesh-array.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/authoring/rig.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/authoring/rig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/known-issues.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/known-issues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/samples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/attachments.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/attachments.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/custom-player.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/custom-player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/deformation-shader.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/deformation-shader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/hello-rig.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/hello-rig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/tutorials/material-properties.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tutorials/material-properties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
