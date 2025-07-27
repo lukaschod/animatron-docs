@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> </title>
+    <title>Render Mesh Array </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" ">
+    <meta name="title" content="Render Mesh Array ">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,7 +77,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="render-mesh-array">Render Mesh Array</h1>
 
+<p><code>RenderMeshArray</code> is a component used for rendering meshes. It serves as an alternative to Unity’s existing components: <code>MeshFilter</code>, <code>MeshRenderer</code>, and <code>SkinnedMeshRenderer</code>. A GameObject with a <code>RenderMeshArray</code> component will render similarly to one using a <code>MeshRenderer</code> and <code>MeshFilter</code>.</p>
+<p>One major advantage of <code>RenderMeshArray</code> is its <strong>explicit control over sub-rendering</strong>. In Unity's <code>MeshRenderer</code>, sub-rendering is managed through the materials array—each material corresponds to a submesh index automatically. In contrast, <code>RenderMeshArray</code> allows you to <strong>manually specify</strong> which submesh index and even which mesh to use, offering much more flexibility and control.</p>
+<h2 id="performance">Performance</h2>
+<p>In scenarios with heavy instancing (e.g. many objects sharing the same meshes, materials, filters, and submeshes), <code>RenderMeshArray</code> outperforms <code>MeshRenderer</code> in terms of CPU cost. Under the hood, it leverages <a href="https://docs.unity3d.com/Packages/com.unity.entities.graphics@latest">EntityGraphics</a>, which uses a more CPU-efficient method of building instance draw calls. This results in <strong>lower CPU overhead for culling and draw call recording</strong>.</p>
+<p>However, this also means it does <strong>not support</strong> rendering data typically precomputed per-renderer, such as:</p>
+<ul>
+<li>Light probes</li>
+<li>Per-object lighting data</li>
+<li>Forward additional lights</li>
+</ul>
+<p>To use those features, <strong>deferred</strong> or <strong>forward+</strong> rendering paths are usually required.</p>
+<h2 id="deformations">Deformations</h2>
+<p>When a GameObject with a <code>RenderMeshArray</code> is a child of an <a href="animatron.html">Animatron</a> GameObject with skinning enabled, it will behave similarly to Unity's <code>SkinnedMeshRenderer</code>.</p>
 </article>
           </div>
 

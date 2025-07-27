@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hello Rig </title>
+    <title>Hello Animatron </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Hello Rig ">
+    <meta name="title" content="Hello Animatron ">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,9 +77,41 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="hello-rig">Hello Rig</h1>
+<h1 id="hello-animatron">Hello Animatron</h1>
 
-<p>TODO</p>
+<p>This tutorial will guide you through the process of creating an animated object from a prefab using Animatron.</p>
+<hr>
+<h3 id="1-select-a-prefab">1. Select a Prefab</h3>
+<p>Start by selecting the prefab you want to create a rig from.<br>
+Typically, this will be an imported model asset such as <code>.fbx</code>, <code>.gltf</code>, or <code>.glb</code>.</p>
+<hr>
+<h3 id="2-create-a-rig-asset">2. Create a Rig Asset</h3>
+<p>With the asset selected in the <strong>Project</strong> view, right-click and choose:<br>
+<code>Create &gt; Rig</code></p>
+<p>This will generate a new asset with the <code>.rig</code> extension.</p>
+<img src="../images/hello-animatron-create-rig.png" width="400">
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note: The <code>.rig</code> file is a dummy asset. The actual data is handled by the <code>RigImporter</code>, a <a href="https://docs.unity3d.com/6000.1/Documentation/ScriptReference/AssetImporters.ScriptedImporter.html">ScriptedImporter</a> that generates the underlying <code>Rig</code> ScriptableObject.</p>
+</div>
+<hr>
+<h3 id="3-assign-the-prefab">3. Assign the Prefab</h3>
+<p>Select the newly created <code>.rig</code> asset and assign your original prefab to the <strong>Prefab</strong> field.<br>
+Once assigned, a <a href="../authoring/rig.html">Rig</a> ScriptableObject will be generated automatically.</p>
+<hr>
+<h3 id="4-add-animations">4. Add Animations</h3>
+<p>In the <strong>Inspector</strong>, you’ll see an array labeled <strong>Animations</strong>.<br>
+Here you can assign the animation clips you want baked into the rig.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note: The assigned animations must share the <strong>same joint structure</strong> as the prefab. Mismatches can lead to undefined results.</p>
+</div>
+<p>After adding the animations, make sure to click the <strong>Apply</strong> button to save your changes.</p>
+<img src="../images/hello-animatron-assign-animations.png" width="400">
+<hr>
+<h3 id="5-drag-into-the-scene">5. Drag Into the Scene</h3>
+<p>Just like any prefab, you can now drag and drop the <code>.rig</code> asset into the <strong>Scene</strong> view to create an instance.</p>
+<img src="../images/hello-animatron-drag-and-drop.png" width="400">
 </article>
           </div>
 

@@ -84,15 +84,47 @@
 <p>This package is designed to work with both concepts DOD (Data oriented design) and OOP (Object oriented programming).
 Both share the same authoring components.</p>
 <h2 id="animatron-vs-animator">Animatron vs Animator</h2>
-<p>Animatron mainly and most importantly delivers greater performance compared to unity animator. Animatron in particular cases can easily have 8x less cpu cost compared to animator. However is quite important to understand a lot of this performance gains comes from fact animatron is designed to have more targeted solutions instead of having one that attempts to solve everything. Here is the main restrictions of animatron that enables better optimizations:</p>
+<p>Animatron primarily, and most importantly, delivers significantly better performance compared to the Unity Animator. In certain cases, Animatron can have up to <strong>8x lower CPU cost</strong> than Animator. However, it's important to understand that much of this performance gain comes from Animatron being designed with <strong>more targeted solutions</strong>, rather than attempting to solve every use case. Below are the key restrictions of Animatron that enable these optimizations:</p>
 <ul>
-<li>Animator stores animation data in curves and that can have not only transformation data, but high variaty of different options like light intensity and more. This usually comes as features of fbx format. As result animator needs tu resolve this curves at runtime and bind them to particular properties that adds substantial overhead. In most games this is not really needed and most of the times non transform properties are handled not through animations. For this reason animatron takes advantage of this restrictions and instead stores only transforms information.</li>
-<li>In unity imported fbx bones structure is imported as game object. As result unity animator must continue levering them for transformations and as result it adds all the overhead that comes from game object and its tranform hierarchy. In animatron this is stored in simple array and transformations are minimized to bare minimum, thus avoiding a lot of overhead. Keep in mind that you can still access the bone transform at runtime for things like attachments.</li>
-<li>In unity mesh deformation happens either in compute shader or cpu oppose to in vertex shader. Both solutions have they advantages and disadvantes. Mainly unity chose this solution for shader simplicity as that would require handling vertex skinning for each possible shader including custom user shaders. The other advantage of it in shaders with multiple passes can actually reduce gpu cost as you dont need to do it in each pass vertex pipeline stage. However this also has some serious disadvantages as each instance has to have custom mesh it cant use gpu optimization of instanced rendering that greatly reduces cpu cost. The other one skinning on cpu is extremely costly and skinning on compute shaders typically not very friendly on tiled based devices (etc. mobile). For this reason animatron uses vertex shader for skinning instead of using compute or cpu.</li>
-<li>Animator most of</li>
+<li><p><strong>Animation Data Format</strong>:<br>
+The Animator stores animation data in curves, which can include not only transformation data but also a wide variety of other properties like light intensity and more—typically features of the FBX format. As a result, Animator must resolve these curves at runtime and bind them to the appropriate properties, adding substantial overhead. In most games, this is unnecessary, as non-transform properties are usually not driven by animations. Animatron takes advantage of this by storing only transformation data, significantly reducing complexity and runtime cost.</p>
+</li>
+<li><p><strong>Bone Hierarchy Representation</strong>:<br>
+In Unity, the imported FBX bone structure is represented as GameObjects. Therefore, the Animator must use GameObjects and their <code>Transform</code> components for animation, introducing all the associated overhead. Animatron, on the other hand, stores the bone hierarchy in a simple array and minimizes transformation calculations to the bare minimum, avoiding much of that overhead. You can still access bone transforms at runtime for things like attachments.</p>
+</li>
+<li><p><strong>Mesh Skinning Method</strong>:<br>
+In Unity, mesh deformation (skinning) happens either on the CPU or in compute shaders, rather than in the vertex shader. Both approaches have their advantages and disadvantages. Unity chooses this method for shader simplicity, as handling skinning in the vertex shader would require supporting it across all shader variants, including custom user shaders. Another benefit is that in multi-pass shaders, skinning done once outside the vertex pipeline can reduce GPU cost.<br>
+However, there are major downsides:</p>
+<ul>
+<li>Each skinned mesh instance requires a unique mesh, preventing the use of GPU instancing, which is highly efficient for reducing CPU load.</li>
+<li>CPU skinning is extremely expensive.</li>
+<li>Compute shader skinning is typically not optimal on tile-based GPUs (e.g., on mobile devices).</li>
+</ul>
+<p>For these reasons, Animatron performs skinning directly in the vertex shader, avoiding the downsides of compute or CPU-based skinning.</p>
+</li>
+</ul>
+<h2 id="animatron-vs-other-dots-animation-solutions">Animatron vs Other DOTS Animation Solutions</h2>
+<p>There are other excellent DOTS-based animation solutions on the Asset Store that serve their use cases well. Animatron focuses on the following points, and it's important for users to evaluate whether these align with their needs:</p>
+<ul>
+<li><p><strong>Support for Hybrid Workflow</strong>:<br>
+Designed for users who don't want to work directly with Entities. This approach follows the success of the <a href="https://assetstore.unity.com/packages/tools/behavior-ai/agents-navigation-239233">Agents Navigation Package</a>, offering a familiar workflow while still leveraging DOTS under the hood.</p>
+</li>
+<li><p><strong>Simple, Fast, Lightweight</strong>:<br>
+Aims to provide a streamlined solution for playing animations without the bizarre overhead often found in more general-purpose systems.</p>
+</li>
+<li><p><strong>Scalable Foundation with Performance in Mind</strong>:<br>
+Offers a highly customizable animation foundation with maximum performance in mind. Even in hybrid mode, the package uses Entities for the backend. Extending the system will require ECS knowledge—but your game logic does <strong>not</strong> need to be ECS-based. This design choice is intentional to ensure performance is not compromised.</p>
+</li>
+<li><p><strong>Seamless Unity Integration</strong>:<br>
+Follows Unity's UI/UX best practices and integrates cleanly with the existing graphics and DOTS tech stack for a smooth development experience.</p>
+</li>
 </ul>
 <h2 id="quick-start">Quick Start</h2>
-<p>For minimal quick setup check tutorial <a href="tutorials/set-destination.md">Set Destination</a>.</p>
+<p>For minimal quick setup check tutorial <a href="tutorials/hello-animatron.html">Hello Animatron</a>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note: It's highly recommended to check out the <a href="architecture.html">Architecture</a> page for a deeper understanding of how this package works internally.</p>
+</div>
 <h2 id="dependencies">Dependencies</h2>
 <ul>
 <li>Minimum Unity 2022.3 version</li>

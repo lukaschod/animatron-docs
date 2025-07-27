@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Deformation Shader </title>
+    <title>Custom Skinning Shader </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Deformation Shader ">
+    <meta name="title" content="Custom Skinning Shader ">
     <meta name="generator" content="docfx ">
   
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,9 +77,35 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="deformation-shader">Deformation Shader</h1>
+<h1 id="custom-skinning-shader">Custom Skinning Shader</h1>
 
-<p>TODO</p>
+<p>This tutorial will guide you through creating a custom shader that supports <strong>Animatron</strong> deformations using Shader Graph.</p>
+<hr>
+<h3 id="1-create-a-new-shader-graph">1. Create a New Shader Graph</h3>
+<p>Animatron relies on the Shader Graph package, so you'll need to create a new shader using Shader Graph.</p>
+<p>Right-click in the <strong>Project</strong> view and select:<br>
+<code>Create &gt; Shader Graph &gt; ...</code></p>
+<p>Choose the appropriate option based on your render pipeline (URP, HDRP, etc.) and surface type (Lit, Unlit, etc.).</p>
+<hr>
+<h3 id="2-add-the-animatron-linear-blend-skinning-node">2. Add the &quot;Animatron Linear Blend Skinning&quot; Node</h3>
+<p>Open the newly created shader graph. In the graph window, right-click and choose:<br>
+<code>Add Node &gt; Animatron Linear Blend Skinning</code></p>
+<img src="../images/custom-skinning-shader-node.png" width="400">
+<p>Connect the <strong>Skinned Position</strong>, <strong>Normal</strong>, and <strong>Tangent</strong> outputs of the node to the corresponding <strong>Vertex Block</strong> inputs.</p>
+<img src="../images/custom-skinning-shader-connect-node.png" width="400">
+<p>Save the graph.</p>
+<hr>
+<h3 id="skinning-mode-optional">Skinning Mode (Optional)</h3>
+<p>The <strong>Animatron Linear Blend Skinning</strong> node has a <code>SkinningMode</code> option with the following settings:</p>
+<ul>
+<li><p><strong>FourJoint</strong>:<br>
+Use this mode if <strong>all meshes</strong> using the shader have <strong>exactly 4 blend weights per vertex</strong>. This mode offers the best performance since the shader avoids dynamic branching.<br>
+You can enforce this during rig import by enabling the <code>Force 4 Blend Weights</code> option.</p>
+</li>
+<li><p><strong>Dynamic</strong>:<br>
+Use this mode if your meshes have a <strong>variable number of blend weights</strong>. It offers flexibility at the cost of some performance.</p>
+</li>
+</ul>
 </article>
           </div>
 

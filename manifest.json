@@ -991,6 +991,56 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "manual/images/custom-skinning-shader-connect-node.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/custom-skinning-shader-connect-node.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/custom-skinning-shader-node.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/custom-skinning-shader-node.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/hello-animatron-assign-animations.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/hello-animatron-assign-animations.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/hello-animatron-create-rig.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/hello-animatron-create-rig.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/hello-animatron-drag-and-drop.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/hello-animatron-drag-and-drop.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
@@ -1072,20 +1122,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/tutorials/deformation-shader.md",
+      "source_relative_path": "manual/tutorials/custom-skinning-shader.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/deformation-shader.html"
+          "relative_path": "manual/tutorials/custom-skinning-shader.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/tutorials/hello-rig.md",
+      "source_relative_path": "manual/tutorials/hello-animatron.md",
       "output": {
         ".html": {
-          "relative_path": "manual/tutorials/hello-rig.html"
+          "relative_path": "manual/tutorials/hello-animatron.html"
         }
       },
       "version": ""
