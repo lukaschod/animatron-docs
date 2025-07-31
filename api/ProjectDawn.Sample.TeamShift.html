@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum RigTransformType
+    <title>Struct TeamShift
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum RigTransformType
+    <meta name="title" content="Struct TeamShift
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,46 +78,84 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.Hybrid.RigTransformType">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Sample.TeamShift">
 
 
-  <h1 id="ProjectDawn_Animation_Hybrid_RigTransformType" data-uid="ProjectDawn.Animation.Hybrid.RigTransformType" class="text-break">Enum RigTransformType
+  <h1 id="ProjectDawn_Sample_TeamShift" data-uid="ProjectDawn.Sample.TeamShift" class="text-break">Struct TeamShift
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a>.<a class="xref" href="ProjectDawn.Animation.Hybrid.html">Hybrid</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Animatron.dll</h6>
-  <h5 id="ProjectDawn_Animation_Hybrid_RigTransformType_syntax">Syntax</h5>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IComponentData</span></div>
+    <div><span class="xref">IQueryTypeParameter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Sample.html">Sample</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Animator.Samples.Survivor.dll</h6>
+  <h5 id="ProjectDawn_Sample_TeamShift_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public enum RigTransformType</code></pre>
+    <pre><code class="lang- hljs">[MaterialProperty(&quot;_TeamShift&quot;, -1)]
+public struct TeamShift : IComponentData, IQueryTypeParameter</code></pre>
   </div>
   <h3 id="fields">Fields
 </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Sample_TeamShift_Value.md&amp;value=---%0Auid%3A%20ProjectDawn.Sample.TeamShift.Value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/TeamSwitcher.cs/#L12">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Sample_TeamShift_Value" data-uid="ProjectDawn.Sample.TeamShift.Value">Value</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public float Value</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
-    </thead></thead><tbody>
+    </thead>
+    <tbody>
       <tr>
-        <td id="ProjectDawn_Animation_Hybrid_RigTransformType_AffineTransform">AffineTransform</td>
-        <td><p>Position as float3, Rotation and Scale as float3x3.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Animation_Hybrid_RigTransformType_LocalTransform">LocalTransform</td>
-        <td><p>Position as float3, Rotation as quaternnion and Scale as uniform scale.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Animation_Hybrid_RigTransformType_RigidTransform">RigidTransform</td>
-        <td><p>Position as float3 and Rotation as quaternion.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Unity.Entities.IComponentData</span>
+  </div>
+  <div>
+      <span class="xref">Unity.Entities.IQueryTypeParameter</span>
+  </div>
 </article>
           </div>
 
@@ -126,10 +164,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Hybrid_RigTransformType.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Hybrid.RigTransformType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Sample_TeamShift.md&amp;value=---%0Auid%3A%20ProjectDawn.Sample.TeamShift%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Rig.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/TeamSwitcher.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

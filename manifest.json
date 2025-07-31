@@ -32,6 +32,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.Skin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.Skin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronAuthoring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.AnimatronSystem.yml",
       "output": {
         ".html": {
@@ -96,6 +126,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.CrossFader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.CrossFaderAuthoring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.CrossFaderAuthoring.html"
         }
       },
       "version": ""
@@ -302,40 +342,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.Skin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.Skin.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.Animatron.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.Hybrid.BaseColorProperty.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.Hybrid.BaseColorProperty.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.CrossFader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.CrossFader.html"
         }
       },
       "version": ""
@@ -352,40 +362,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Inertializer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.Inertializer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.Hybrid.ReadAnimatronTransformSystem.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.Hybrid.ReadAnimatronTransformSystem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.Rig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.Rig.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Hybrid.RigTransformType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Hybrid.RigTransformType.html"
         }
       },
       "version": ""
@@ -442,20 +422,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.yml",
+      "source_relative_path": "api/ProjectDawn.Animation.Inertializer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html"
+          "relative_path": "api/ProjectDawn.Animation.Inertializer.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Inertializer.yml",
+      "source_relative_path": "api/ProjectDawn.Animation.InertializerAuthoring.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Inertializer.html"
+          "relative_path": "api/ProjectDawn.Animation.InertializerAuthoring.html"
         }
       },
       "version": ""
@@ -562,150 +542,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Rig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Rig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.RigTransformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.RigTransformType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.RigidTransform.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.RigidTransform.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.BlendTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.BlendTest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.BlendTestSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.BlendTestSystem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.AnimatorPlayAnimation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.AnimatorPlayAnimation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.BlendTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.BlendTest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.NormalTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.NormalTest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.TestMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.TestMode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.Spawner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamShift.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamShift.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamSwitcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.TeamSwitcher.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Hybrid.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.NormalTest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.NormalTest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.NormalTestSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.NormalTestSystem.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.Spawner.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.Spawner.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.Samples.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.Samples.html"
         }
       },
       "version": ""
@@ -881,6 +741,196 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.AnimatorPlayAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.AnimatorPlayAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.Attachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.Attachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendTestSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendTestSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.CpuTimeTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.CpuTimeTracker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.EntitySpawner.BlendTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.EntitySpawner.BlendTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.EntitySpawner.NormalTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.EntitySpawner.NormalTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.EntitySpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.EntitySpawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.NormalTestSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.NormalTestSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.RetroAnimatron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.RetroAnimatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.RetroAnimatronPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.RetroAnimatronPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.RetroAnimatronSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.RetroAnimatronSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.Spawner.BlendTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.Spawner.BlendTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.Spawner.NormalTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.Spawner.NormalTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.Spawner.TestMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.Spawner.TestMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.Spawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.TeamShift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.TeamShift.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.TeamSwitcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.TeamSwitcher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.VisualizeBlend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.VisualizeBlend.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -986,6 +1036,16 @@
       "output": {
         ".html": {
           "relative_path": "manual/authoring/rig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/architecture.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/architecture.png"
         }
       },
       "version": ""

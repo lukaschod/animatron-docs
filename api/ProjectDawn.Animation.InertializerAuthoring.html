@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CrossFader
+    <title>Class InertializerAuthoring
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CrossFader
+    <meta name="title" content="Class InertializerAuthoring
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,15 +78,15 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.Hybrid.CrossFader">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.InertializerAuthoring">
 
 
-  <h1 id="ProjectDawn_Animation_Hybrid_CrossFader" data-uid="ProjectDawn.Animation.Hybrid.CrossFader" class="text-break">Class CrossFader
+  <h1 id="ProjectDawn_Animation_InertializerAuthoring" data-uid="ProjectDawn.Animation.InertializerAuthoring" class="text-break">Class InertializerAuthoring
 </h1>
-  <div class="markdown level0 summary"><p>Handles simple crossfading between animations by linearly blending weights over time.
-This component provides a basic solution for transitioning between animations,
-but for smoother and more physically convincing results, it's recommended to use <a class="xref" href="ProjectDawn.Animation.Hybrid.Inertializer.html">Inertializer</a> instead.
-Inertialization better preserves motion momentum and reduces visual popping during abrupt changes.</p>
+  <div class="markdown level0 summary"><p>Handles animation inertialization, enabling smooth transitions between animations by preserving motion continuity.
+Inspired by the technique used in Gears of War, this component reduces visual popping and harsh transitions
+when switching from one animation to another.
+Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -96,7 +96,7 @@ Inertialization better preserves motion momentum and reduces visual popping duri
     <div class="level2"><span class="xref">Component</span></div>
     <div class="level3"><span class="xref">Behaviour</span></div>
     <div class="level4"><span class="xref">MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">CrossFader</span></div>
+    <div class="level5"><span class="xref">InertializerAuthoring</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -500,25 +500,25 @@ Inertialization better preserves motion momentum and reduces visual popping duri
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a>.<a class="xref" href="ProjectDawn.Animation.Hybrid.html">Hybrid</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Animatron.dll</h6>
-  <h5 id="ProjectDawn_Animation_Hybrid_CrossFader_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Animation_InertializerAuthoring_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">[AddComponentMenu(&quot;Miscellaneous/Cross Fader&quot;)]
-[HelpURL(&quot;https://lukaschod.github.io/animatron-docs/manual/authoring/cross-fader.html&quot;)]
-public class CrossFader : MonoBehaviour</code></pre>
+    <pre><code class="lang- hljs">[AddComponentMenu(&quot;Miscellaneous/Inertializer&quot;)]
+[HelpURL(&quot;https://lukaschod.github.io/animatron-docs/manual/authoring/inertializer.html&quot;)]
+public class InertializerAuthoring : MonoBehaviour</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Hybrid_CrossFader_Duration.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Hybrid.CrossFader.Duration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_InertializerAuthoring_Duration.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.InertializerAuthoring.Duration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFader.cs/#L26">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Inertializer/InertializerAuthoring.cs/#L29">View Source</a>
   </span>
-  <a id="ProjectDawn_Animation_Hybrid_CrossFader_Duration_" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.Duration*"></a>
-  <h4 id="ProjectDawn_Animation_Hybrid_CrossFader_Duration" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.Duration">Duration</h4>
+  <a id="ProjectDawn_Animation_InertializerAuthoring_Duration_" data-uid="ProjectDawn.Animation.InertializerAuthoring.Duration*"></a>
+  <h4 id="ProjectDawn_Animation_InertializerAuthoring_Duration" data-uid="ProjectDawn.Animation.InertializerAuthoring.Duration">Duration</h4>
   <div class="markdown level1 summary"><p>Time in seconds for the transition from the previous animation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -543,22 +543,22 @@ public class CrossFader : MonoBehaviour</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Hybrid_CrossFader_EntityCrossFader.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Hybrid.CrossFader.EntityCrossFader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_InertializerAuthoring_EntityInertializer.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.InertializerAuthoring.EntityInertializer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFader.cs/#L46">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Inertializer/InertializerAuthoring.cs/#L49">View Source</a>
   </span>
-  <a id="ProjectDawn_Animation_Hybrid_CrossFader_EntityCrossFader_" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.EntityCrossFader*"></a>
-  <h4 id="ProjectDawn_Animation_Hybrid_CrossFader_EntityCrossFader" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.EntityCrossFader">EntityCrossFader</h4>
-  <div class="markdown level1 summary"><p>Handles simple crossfading between animations by linearly blending weights over time.
-This component provides a basic solution for transitioning between animations,
-but for smoother and more physically convincing results, it's recommended to use <a class="xref" href="ProjectDawn.Animation.Hybrid.Inertializer.html">Inertializer</a> instead.
-Inertialization better preserves motion momentum and reduces visual popping during abrupt changes.</p>
+  <a id="ProjectDawn_Animation_InertializerAuthoring_EntityInertializer_" data-uid="ProjectDawn.Animation.InertializerAuthoring.EntityInertializer*"></a>
+  <h4 id="ProjectDawn_Animation_InertializerAuthoring_EntityInertializer" data-uid="ProjectDawn.Animation.InertializerAuthoring.EntityInertializer">EntityInertializer</h4>
+  <div class="markdown level1 summary"><p>Handles animation inertialization, enabling smooth transitions between animations by preserving motion continuity.
+Inspired by the technique used in Gears of War, this component reduces visual popping and harsh transitions
+when switching from one animation to another.
+Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public ref CrossFader EntityCrossFader { get; }</code></pre>
+    <pre><code class="lang- hljs">public ref Inertializer EntityInertializer { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -570,7 +570,7 @@ Inertialization better preserves motion momentum and reduces visual popping duri
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="ProjectDawn.Animation.CrossFader.html">CrossFader</a></td>
+        <td><a class="xref" href="ProjectDawn.Animation.Inertializer.html">Inertializer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -579,21 +579,20 @@ Inertialization better preserves motion momentum and reduces visual popping duri
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Hybrid_CrossFader_CrossFade_ProjectDawn_Animation_AnimationIndex_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Hybrid.CrossFader.CrossFade(ProjectDawn.Animation.AnimationIndex)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_InertializerAuthoring_Intertialize_ProjectDawn_Animation_AnimationIndex_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.InertializerAuthoring.Intertialize(ProjectDawn.Animation.AnimationIndex)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFader.cs/#L56">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Inertializer/InertializerAuthoring.cs/#L58">View Source</a>
   </span>
-  <a id="ProjectDawn_Animation_Hybrid_CrossFader_CrossFade_" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.CrossFade*"></a>
-  <h4 id="ProjectDawn_Animation_Hybrid_CrossFader_CrossFade_ProjectDawn_Animation_AnimationIndex_" data-uid="ProjectDawn.Animation.Hybrid.CrossFader.CrossFade(ProjectDawn.Animation.AnimationIndex)">CrossFade(AnimationIndex)</h4>
-  <div class="markdown level1 summary"><p>Initiates a crossfade transition to the specified animation by blending weights over time.
-This provides a simple linear interpolation between the current and target animation.
-For smoother transitions that better preserve motion momentum, consider using <a class="xref" href="ProjectDawn.Animation.Hybrid.Inertializer.html">Inertializer</a> instead.</p>
+  <a id="ProjectDawn_Animation_InertializerAuthoring_Intertialize_" data-uid="ProjectDawn.Animation.InertializerAuthoring.Intertialize*"></a>
+  <h4 id="ProjectDawn_Animation_InertializerAuthoring_Intertialize_ProjectDawn_Animation_AnimationIndex_" data-uid="ProjectDawn.Animation.InertializerAuthoring.Intertialize(ProjectDawn.Animation.AnimationIndex)">Intertialize(AnimationIndex)</h4>
+  <div class="markdown level1 summary"><p>Initiates inertialization to smoothly blend from the previous animation to the specified current animation.
+This technique, inspired by Gears of War, helps reduce visual pops or abrupt transitions by preserving motion momentum.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public void CrossFade(AnimationIndex animationIndex)</code></pre>
+    <pre><code class="lang- hljs">public void Intertialize(AnimationIndex animationIndex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -620,10 +619,10 @@ For smoother transitions that better preserve motion momentum, consider using <a
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Hybrid_CrossFader.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Hybrid.CrossFader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_InertializerAuthoring.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.InertializerAuthoring%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFader.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Inertializer/InertializerAuthoring.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -80,7 +80,7 @@
 <h1 id="custom-skinning-shader">Custom Skinning Shader</h1>
 
 <p>This tutorial will guide you through creating a custom shader that supports <strong>Animatron</strong> deformations using Shader Graph.</p>
-<hr>
+<h2 id="shader-graph">Shader Graph</h2>
 <h3 id="1-create-a-new-shader-graph">1. Create a New Shader Graph</h3>
 <p>Animatron relies on the Shader Graph package, so you'll need to create a new shader using Shader Graph.</p>
 <p>Right-click in the <strong>Project</strong> view and select:<br>
@@ -94,8 +94,7 @@
 <p>Connect the <strong>Skinned Position</strong>, <strong>Normal</strong>, and <strong>Tangent</strong> outputs of the node to the corresponding <strong>Vertex Block</strong> inputs.</p>
 <img src="../images/custom-skinning-shader-connect-node.png" width="400">
 <p>Save the graph.</p>
-<hr>
-<h3 id="skinning-mode-optional">Skinning Mode (Optional)</h3>
+<h2 id="skinning-mode">Skinning Mode</h2>
 <p>The <strong>Animatron Linear Blend Skinning</strong> node has a <code>SkinningMode</code> option with the following settings:</p>
 <ul>
 <li><p><strong>FourJoint</strong>:<br>
@@ -106,6 +105,22 @@ You can enforce this during rig import by enabling the <code>Force 4 Blend Weigh
 Use this mode if your meshes have a <strong>variable number of blend weights</strong>. It offers flexibility at the cost of some performance.</p>
 </li>
 </ul>
+<h2 id="custom-shader">Custom Shader</h2>
+<p>For those who do not want to use Shader Graph, there is a shader include file that contains the skinning function and can be imported into your shader.</p>
+<hr>
+<h3 id="1-include-animatron-linear-blend-skinning-file-in-your-shader">1. Include &quot;Animatron Linear Blend Skinning&quot; file in your shader</h3>
+<p>In your shader, add the following include file:<br>
+<code>Packages/com.projectdawn.animatron/Shaders/AnimatronLinearBlendSkinning.hlsl</code></p>
+<hr>
+<h3 id="2-add-function-call">2. Add function call</h3>
+<p>Call one of the skinning functions in the vertex shader:<br>
+<code>Animatron_LinearBlendSkinning_float</code> or <code>Animatron_LinearBlendSkinning_dynamic_float</code>, depending on your setup.<br>
+Check the <a href="#markdown-header-skinning-mode">Skinning Mode</a> section for details.</p>
+<hr>
+<h3 id="3-add-instanced-properties">3. Add instanced properties</h3>
+<p>Each render call must include the following property:<br>
+<code>float _SkinMatrixIndex;</code><br>
+This is used to determine where the skinning matrices begin in <code>_AnimatronSkinMatrices</code>.</p>
 </article>
           </div>
 

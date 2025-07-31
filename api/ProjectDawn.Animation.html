@@ -87,12 +87,30 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
 </h3>
+      <h4><a class="xref" href="ProjectDawn.Animation.AnimatronAuthoring.html">AnimatronAuthoring</a></h4>
+      <section><p>Animatron is the main component of the package responsible for animating an object.</p>
+</section>
       <h4><a class="xref" href="ProjectDawn.Animation.AnimatronSystemGroup.html">AnimatronSystemGroup</a></h4>
       <section></section>
+      <h4><a class="xref" href="ProjectDawn.Animation.CrossFaderAuthoring.html">CrossFaderAuthoring</a></h4>
+      <section><p>Handles simple crossfading between animations by linearly blending weights over time.
+This component provides a basic solution for transitioning between animations,
+but for smoother and more physically convincing results, it's recommended to use <a class="xref" href="ProjectDawn.Animation.Inertializer.html">Inertializer</a> instead.
+Inertialization better preserves motion momentum and reduces visual popping during abrupt changes.</p>
+</section>
       <h4><a class="xref" href="ProjectDawn.Animation.CullingSystem.html">CullingSystem</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.EntitiesExt.html">EntitiesExt</a></h4>
       <section></section>
+      <h4><a class="xref" href="ProjectDawn.Animation.InertializerAuthoring.html">InertializerAuthoring</a></h4>
+      <section><p>Handles animation inertialization, enabling smooth transitions between animations by preserving motion continuity.
+Inspired by the technique used in Gears of War, this component reduces visual popping and harsh transitions
+when switching from one animation to another.
+Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
+</section>
+      <h4><a class="xref" href="ProjectDawn.Animation.Rig.html">Rig</a></h4>
+      <section><p>Rig contains serialized <a class="xref" href="ProjectDawn.Animation.Armature.html">Armature</a> and <a class="xref" href="ProjectDawn.Animation.Motion.html">Motion</a>.</p>
+</section>
       <h4><a class="xref" href="ProjectDawn.Animation.SkinMatrixBuffer.html">SkinMatrixBuffer</a></h4>
       <section><p>This is a singleton component that contains Animatron GPU skin matrices.
 The code is based on <span class="xref">Unity.Rendering.SkinningBufferManager</span>.</p>
@@ -106,12 +124,17 @@ Use <a class="xref" href="ProjectDawn.Animation.Motion.html#ProjectDawn_Animatio
       <h4><a class="xref" href="ProjectDawn.Animation.Animatron.html">Animatron</a></h4>
       <section><p>Controls animation playing.</p>
 </section>
+      <h4><a class="xref" href="ProjectDawn.Animation.AnimatronAuthoring.Player.html">AnimatronAuthoring.Player</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ProjectDawn.Animation.AnimatronAuthoring.Skin.html">AnimatronAuthoring.Skin</a></h4>
+      <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.AnimatronSystem.html">AnimatronSystem</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.Armature.html">Armature</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.ArmatureRef.html">ArmatureRef</a></h4>
-      <section></section>
+      <section><p>Used for assigning <a class="xref" href="ProjectDawn.Animation.Armature.html">Armature</a> as component for entity.</p>
+</section>
       <h4><a class="xref" href="ProjectDawn.Animation.BaseColorProperty.html">BaseColorProperty</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.CrossFader.html">CrossFader</a></h4>
@@ -126,10 +149,6 @@ Use <a class="xref" href="ProjectDawn.Animation.Motion.html#ProjectDawn_Animatio
 Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
 </section>
       <h4><a class="xref" href="ProjectDawn.Animation.InertializationCoefficients.html">InertializationCoefficients</a></h4>
-      <section><p>Single float inertia data.
-Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
-</section>
-      <h4><a class="xref" href="ProjectDawn.Animation.InertializationCoefficientsOptimized.html">InertializationCoefficientsOptimized</a></h4>
       <section><p>Single float inertia data.
 Based on <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions</a>.</p>
 </section>
@@ -181,7 +200,8 @@ relation to the bind pose.</p>
 The index is an offset in the GPU buffer, with a stride of <span class="xref">Unity.Mathematics.float3x4</span>.</p>
 </section>
       <h4><a class="xref" href="ProjectDawn.Animation.SkinRef.html">SkinRef</a></h4>
-      <section></section>
+      <section><p>Used for assigning <a class="xref" href="ProjectDawn.Animation.Armature.html">Armature</a> as component for entity and skins index.</p>
+</section>
       <h4><a class="xref" href="ProjectDawn.Animation.SkinSystem.html">SkinSystem</a></h4>
       <section><p>Updates skin matrices from joint poses.</p>
 </section>
@@ -192,6 +212,8 @@ The index is an offset in the GPU buffer, with a stride of <span class="xref">Un
       <h4><a class="xref" href="ProjectDawn.Animation.CrossFadeState.html">CrossFadeState</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.CullingMode.html">CullingMode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="ProjectDawn.Animation.RigTransformType.html">RigTransformType</a></h4>
       <section></section>
       <h4><a class="xref" href="ProjectDawn.Animation.SamplingMode.html">SamplingMode</a></h4>
       <section><p>Controls pose sample interpolation.</p>

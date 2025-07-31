@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Spawner
+    <title>Class CrossFaderAuthoring
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Spawner
+    <meta name="title" content="Class CrossFaderAuthoring
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,12 +78,16 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.CrossFaderAuthoring">
 
 
-  <h1 id="ProjectDawn_Animation_Samples_Hybrid_Spawner" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner" class="text-break">Class Spawner
+  <h1 id="ProjectDawn_Animation_CrossFaderAuthoring" data-uid="ProjectDawn.Animation.CrossFaderAuthoring" class="text-break">Class CrossFaderAuthoring
 </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Handles simple crossfading between animations by linearly blending weights over time.
+This component provides a basic solution for transitioning between animations,
+but for smoother and more physically convincing results, it's recommended to use <a class="xref" href="ProjectDawn.Animation.Inertializer.html">Inertializer</a> instead.
+Inertialization better preserves motion momentum and reduces visual popping during abrupt changes.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -92,7 +96,7 @@
     <div class="level2"><span class="xref">Component</span></div>
     <div class="level3"><span class="xref">Behaviour</span></div>
     <div class="level4"><span class="xref">MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">Spawner</span></div>
+    <div class="level5"><span class="xref">CrossFaderAuthoring</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -496,174 +500,33 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a>.<a class="xref" href="ProjectDawn.Animation.Samples.html">Samples</a>.<a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.html">Hybrid</a></h6>
-  <h6><strong>Assembly</strong>: ProjectDawn.Animator.Samples.Survivor.dll</h6>
-  <h5 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Animatron.dll</h6>
+  <h5 id="ProjectDawn_Animation_CrossFaderAuthoring_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public class Spawner : MonoBehaviour</code></pre>
+    <pre><code class="lang- hljs">[AddComponentMenu(&quot;Miscellaneous/Cross Fader&quot;)]
+[HelpURL(&quot;https://lukaschod.github.io/animatron-docs/manual/authoring/cross-fader.html&quot;)]
+public class CrossFaderAuthoring : MonoBehaviour</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Blend.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Blend%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_CrossFaderAuthoring_Duration.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.CrossFaderAuthoring.Duration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L22">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFaderAuthoring.cs/#L27">View Source</a>
   </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Blend" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Blend">Blend</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ProjectDawn_Animation_CrossFaderAuthoring_Duration_" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.Duration*"></a>
+  <h4 id="ProjectDawn_Animation_CrossFaderAuthoring_Duration" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.Duration">Duration</h4>
+  <div class="markdown level1 summary"><p>Time in seconds for the transition from the previous animation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public Spawner.BlendTest Blend</code></pre>
+    <pre><code class="lang- hljs">public float Duration { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.html">Spawner</a>.<a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.BlendTest.html">BlendTest</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Count.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Count%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L14">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Count" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Count">Count</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public int Count</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Mode.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Mode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L17">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Mode" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Mode">Mode</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public Spawner.TestMode Mode</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.html">Spawner</a>.<a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.TestMode.html">TestMode</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Normal.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Normal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L18">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Normal" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Normal">Normal</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public Spawner.NormalTest Normal</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.html">Spawner</a>.<a class="xref" href="ProjectDawn.Animation.Samples.Hybrid.Spawner.NormalTest.html">NormalTest</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Prefab.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Prefab%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L13">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Prefab" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Prefab">Prefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public GameObject Prefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner_Spacing.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner.Spacing%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L15">View Source</a>
-  </span>
-  <h4 id="ProjectDawn_Animation_Samples_Hybrid_Spawner_Spacing" data-uid="ProjectDawn.Animation.Samples.Hybrid.Spawner.Spacing">Spacing</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang- hljs">public float Spacing</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -678,6 +541,77 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_CrossFaderAuthoring_EntityCrossFader.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.CrossFaderAuthoring.EntityCrossFader%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFaderAuthoring.cs/#L47">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_CrossFaderAuthoring_EntityCrossFader_" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.EntityCrossFader*"></a>
+  <h4 id="ProjectDawn_Animation_CrossFaderAuthoring_EntityCrossFader" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.EntityCrossFader">EntityCrossFader</h4>
+  <div class="markdown level1 summary"><p>Handles simple crossfading between animations by linearly blending weights over time.
+This component provides a basic solution for transitioning between animations,
+but for smoother and more physically convincing results, it's recommended to use <a class="xref" href="ProjectDawn.Animation.Inertializer.html">Inertializer</a> instead.
+Inertialization better preserves motion momentum and reduces visual popping during abrupt changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public ref CrossFader EntityCrossFader { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Animation.CrossFader.html">CrossFader</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_CrossFaderAuthoring_CrossFade_ProjectDawn_Animation_AnimationIndex_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.CrossFaderAuthoring.CrossFade(ProjectDawn.Animation.AnimationIndex)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFaderAuthoring.cs/#L57">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_CrossFaderAuthoring_CrossFade_" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.CrossFade*"></a>
+  <h4 id="ProjectDawn_Animation_CrossFaderAuthoring_CrossFade_ProjectDawn_Animation_AnimationIndex_" data-uid="ProjectDawn.Animation.CrossFaderAuthoring.CrossFade(ProjectDawn.Animation.AnimationIndex)">CrossFade(AnimationIndex)</h4>
+  <div class="markdown level1 summary"><p>Initiates a crossfade transition to the specified animation by blending weights over time.
+This provides a simple linear interpolation between the current and target animation.
+For smoother transitions that better preserve motion momentum, consider using <a class="xref" href="ProjectDawn.Animation.Inertializer.html">Inertializer</a> instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public void CrossFade(AnimationIndex animationIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Animation.AnimationIndex.html">AnimationIndex</a></td>
+        <td><span class="parametername">animationIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
 
@@ -686,10 +620,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Samples_Hybrid_Spawner.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Samples.Hybrid.Spawner%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_CrossFaderAuthoring.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.CrossFaderAuthoring%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/Samples/TerracottaArmy/Runtime/Spawner.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/CrossFader/CrossFaderAuthoring.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

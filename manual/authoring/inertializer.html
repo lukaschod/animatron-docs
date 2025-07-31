@@ -92,7 +92,7 @@
 <a href="https://www.gdcvault.com/play/1025331/Inertialization-High-Performance-Animation-Transitions">Inertialization: High-Performance Animation Transitions</a></p>
 <h3 id="advantages-over-traditional-crossfade">Advantages Over Traditional Crossfade:</h3>
 <ul>
-<li><strong>Single Animation Track</strong>: Only one animation track is played at any time. This makes the system significantly faster overall. Only a single frame during the transition is slightly more expensive due to some precomputed data.</li>
+<li><strong>Single Animation Track</strong>: Only one animation track is played at a time. This makes the system more consistent in frame timing.</li>
 <li><strong>Smoother Transitions</strong>: Instead of blending multiple tracks (which can sometimes clash), the previous pose is eased out using retained accelerations, producing more natural movement.</li>
 <li><strong>Dynamic Transition Timing</strong>: The user-specified transition time acts as a <strong>maximum</strong>. Each joint may finish transitioning at a different time depending on its inertia. If the new pose is already aligned with the direction of inertia, the transition completes even faster, resulting in more natural motion.</li>
 </ul>
