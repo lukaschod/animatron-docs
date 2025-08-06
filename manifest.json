@@ -112,16 +112,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Animation.CrossFadeState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Animation.CrossFadeState.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.CrossFader.yml",
       "output": {
         ".html": {
@@ -936,46 +926,6 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Sample.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Unity.Animation.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Unity.Animation.Core.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Unity.Animation.InertialBlendingCoefficients.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Unity.Animation.InertialBlendingCoefficients.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Unity.Animation.mathex.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Unity.Animation.mathex.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Unity.Animation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Unity.Animation.html"
         }
       },
       "version": ""

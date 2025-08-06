@@ -669,36 +669,6 @@ references:
   commentId: F:ProjectDawn.Animation.BaseColorProperty.Value
   fullName: ProjectDawn.Animation.BaseColorProperty.Value
   nameWithType: BaseColorProperty.Value
-- uid: ProjectDawn.Animation.CrossFadeState
-  name: CrossFadeState
-  href: api/ProjectDawn.Animation.CrossFadeState.html
-  commentId: T:ProjectDawn.Animation.CrossFadeState
-  fullName: ProjectDawn.Animation.CrossFadeState
-  nameWithType: CrossFadeState
-- uid: ProjectDawn.Animation.CrossFadeState.Active
-  name: Active
-  href: api/ProjectDawn.Animation.CrossFadeState.html#ProjectDawn_Animation_CrossFadeState_Active
-  commentId: F:ProjectDawn.Animation.CrossFadeState.Active
-  fullName: ProjectDawn.Animation.CrossFadeState.Active
-  nameWithType: CrossFadeState.Active
-- uid: ProjectDawn.Animation.CrossFadeState.None
-  name: None
-  href: api/ProjectDawn.Animation.CrossFadeState.html#ProjectDawn_Animation_CrossFadeState_None
-  commentId: F:ProjectDawn.Animation.CrossFadeState.None
-  fullName: ProjectDawn.Animation.CrossFadeState.None
-  nameWithType: CrossFadeState.None
-- uid: ProjectDawn.Animation.CrossFadeState.Overwrite
-  name: Overwrite
-  href: api/ProjectDawn.Animation.CrossFadeState.html#ProjectDawn_Animation_CrossFadeState_Overwrite
-  commentId: F:ProjectDawn.Animation.CrossFadeState.Overwrite
-  fullName: ProjectDawn.Animation.CrossFadeState.Overwrite
-  nameWithType: CrossFadeState.Overwrite
-- uid: ProjectDawn.Animation.CrossFadeState.OverwriteActive
-  name: OverwriteActive
-  href: api/ProjectDawn.Animation.CrossFadeState.html#ProjectDawn_Animation_CrossFadeState_OverwriteActive
-  commentId: F:ProjectDawn.Animation.CrossFadeState.OverwriteActive
-  fullName: ProjectDawn.Animation.CrossFadeState.OverwriteActive
-  nameWithType: CrossFadeState.OverwriteActive
 - uid: ProjectDawn.Animation.CrossFader
   name: CrossFader
   href: api/ProjectDawn.Animation.CrossFader.html
@@ -711,12 +681,25 @@ references:
   commentId: F:ProjectDawn.Animation.CrossFader.AnimationIndex
   fullName: ProjectDawn.Animation.CrossFader.AnimationIndex
   nameWithType: CrossFader.AnimationIndex
-- uid: ProjectDawn.Animation.CrossFader.AnimationIndex2
-  name: AnimationIndex2
-  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_AnimationIndex2
-  commentId: F:ProjectDawn.Animation.CrossFader.AnimationIndex2
-  fullName: ProjectDawn.Animation.CrossFader.AnimationIndex2
-  nameWithType: CrossFader.AnimationIndex2
+- uid: ProjectDawn.Animation.CrossFader.Blend
+  name: Blend
+  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_Blend
+  commentId: F:ProjectDawn.Animation.CrossFader.Blend
+  fullName: ProjectDawn.Animation.CrossFader.Blend
+  nameWithType: CrossFader.Blend
+- uid: ProjectDawn.Animation.CrossFader.CheckValidity
+  name: CheckValidity()
+  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_CheckValidity
+  commentId: M:ProjectDawn.Animation.CrossFader.CheckValidity
+  fullName: ProjectDawn.Animation.CrossFader.CheckValidity()
+  nameWithType: CrossFader.CheckValidity()
+- uid: ProjectDawn.Animation.CrossFader.CheckValidity*
+  name: CheckValidity
+  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_CheckValidity_
+  commentId: Overload:ProjectDawn.Animation.CrossFader.CheckValidity
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.CrossFader.CheckValidity
+  nameWithType: CrossFader.CheckValidity
 - uid: ProjectDawn.Animation.CrossFader.CrossFade(ProjectDawn.Animation.AnimationIndex)
   name: CrossFade(AnimationIndex)
   href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_CrossFade_ProjectDawn_Animation_AnimationIndex_
@@ -749,25 +732,18 @@ references:
   commentId: F:ProjectDawn.Animation.CrossFader.Duration
   fullName: ProjectDawn.Animation.CrossFader.Duration
   nameWithType: CrossFader.Duration
-- uid: ProjectDawn.Animation.CrossFader.IsInTranssition
-  name: IsInTranssition
-  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_IsInTranssition
-  commentId: P:ProjectDawn.Animation.CrossFader.IsInTranssition
-  fullName: ProjectDawn.Animation.CrossFader.IsInTranssition
-  nameWithType: CrossFader.IsInTranssition
-- uid: ProjectDawn.Animation.CrossFader.IsInTranssition*
-  name: IsInTranssition
-  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_IsInTranssition_
-  commentId: Overload:ProjectDawn.Animation.CrossFader.IsInTranssition
-  isSpec: "True"
-  fullName: ProjectDawn.Animation.CrossFader.IsInTranssition
-  nameWithType: CrossFader.IsInTranssition
-- uid: ProjectDawn.Animation.CrossFader.State
-  name: State
-  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_State
-  commentId: F:ProjectDawn.Animation.CrossFader.State
-  fullName: ProjectDawn.Animation.CrossFader.State
-  nameWithType: CrossFader.State
+- uid: ProjectDawn.Animation.CrossFader.InTransition
+  name: InTransition
+  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_InTransition
+  commentId: F:ProjectDawn.Animation.CrossFader.InTransition
+  fullName: ProjectDawn.Animation.CrossFader.InTransition
+  nameWithType: CrossFader.InTransition
+- uid: ProjectDawn.Animation.CrossFader.RequestedAnimationIndex
+  name: RequestedAnimationIndex
+  href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_RequestedAnimationIndex
+  commentId: F:ProjectDawn.Animation.CrossFader.RequestedAnimationIndex
+  fullName: ProjectDawn.Animation.CrossFader.RequestedAnimationIndex
+  nameWithType: CrossFader.RequestedAnimationIndex
 - uid: ProjectDawn.Animation.CrossFader.Time
   name: Time
   href: api/ProjectDawn.Animation.CrossFader.html#ProjectDawn_Animation_CrossFader_Time
@@ -1914,12 +1890,19 @@ references:
   commentId: T:ProjectDawn.Animation.Inertializer
   fullName: ProjectDawn.Animation.Inertializer
   nameWithType: Inertializer
-- uid: ProjectDawn.Animation.Inertializer.AnimationIndex
-  name: AnimationIndex
-  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_AnimationIndex
-  commentId: F:ProjectDawn.Animation.Inertializer.AnimationIndex
-  fullName: ProjectDawn.Animation.Inertializer.AnimationIndex
-  nameWithType: Inertializer.AnimationIndex
+- uid: ProjectDawn.Animation.Inertializer.CheckValidity
+  name: CheckValidity()
+  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_CheckValidity
+  commentId: M:ProjectDawn.Animation.Inertializer.CheckValidity
+  fullName: ProjectDawn.Animation.Inertializer.CheckValidity()
+  nameWithType: Inertializer.CheckValidity()
+- uid: ProjectDawn.Animation.Inertializer.CheckValidity*
+  name: CheckValidity
+  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_CheckValidity_
+  commentId: Overload:ProjectDawn.Animation.Inertializer.CheckValidity
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Inertializer.CheckValidity
+  nameWithType: Inertializer.CheckValidity
 - uid: ProjectDawn.Animation.Inertializer.Default
   name: Default
   href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_Default
@@ -1939,6 +1922,12 @@ references:
   commentId: F:ProjectDawn.Animation.Inertializer.Duration
   fullName: ProjectDawn.Animation.Inertializer.Duration
   nameWithType: Inertializer.Duration
+- uid: ProjectDawn.Animation.Inertializer.InTransition
+  name: InTransition
+  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_InTransition
+  commentId: F:ProjectDawn.Animation.Inertializer.InTransition
+  fullName: ProjectDawn.Animation.Inertializer.InTransition
+  nameWithType: Inertializer.InTransition
 - uid: ProjectDawn.Animation.Inertializer.Intertialize(ProjectDawn.Animation.AnimationIndex)
   name: Intertialize(AnimationIndex)
   href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_Intertialize_ProjectDawn_Animation_AnimationIndex_
@@ -1952,25 +1941,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Inertializer.Intertialize
   nameWithType: Inertializer.Intertialize
-- uid: ProjectDawn.Animation.Inertializer.IsInTranssition
-  name: IsInTranssition
-  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_IsInTranssition
-  commentId: P:ProjectDawn.Animation.Inertializer.IsInTranssition
-  fullName: ProjectDawn.Animation.Inertializer.IsInTranssition
-  nameWithType: Inertializer.IsInTranssition
-- uid: ProjectDawn.Animation.Inertializer.IsInTranssition*
-  name: IsInTranssition
-  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_IsInTranssition_
-  commentId: Overload:ProjectDawn.Animation.Inertializer.IsInTranssition
-  isSpec: "True"
-  fullName: ProjectDawn.Animation.Inertializer.IsInTranssition
-  nameWithType: Inertializer.IsInTranssition
-- uid: ProjectDawn.Animation.Inertializer.State
-  name: State
-  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_State
-  commentId: F:ProjectDawn.Animation.Inertializer.State
-  fullName: ProjectDawn.Animation.Inertializer.State
-  nameWithType: Inertializer.State
+- uid: ProjectDawn.Animation.Inertializer.RequestedAnimationIndex
+  name: RequestedAnimationIndex
+  href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_RequestedAnimationIndex
+  commentId: F:ProjectDawn.Animation.Inertializer.RequestedAnimationIndex
+  fullName: ProjectDawn.Animation.Inertializer.RequestedAnimationIndex
+  nameWithType: Inertializer.RequestedAnimationIndex
 - uid: ProjectDawn.Animation.Inertializer.Time
   name: Time
   href: api/ProjectDawn.Animation.Inertializer.html#ProjectDawn_Animation_Inertializer_Time
@@ -4238,104 +4214,3 @@ references:
   commentId: T:ProjectDawn.Sample.VisualizeBlend
   fullName: ProjectDawn.Sample.VisualizeBlend
   nameWithType: VisualizeBlend
-- uid: Unity.Animation
-  name: Unity.Animation
-  href: api/Unity.Animation.html
-  commentId: N:Unity.Animation
-  fullName: Unity.Animation
-  nameWithType: Unity.Animation
-- uid: Unity.Animation.Core
-  name: Core
-  href: api/Unity.Animation.Core.html
-  commentId: T:Unity.Animation.Core
-  fullName: Unity.Animation.Core
-  nameWithType: Core
-- uid: Unity.Animation.InertialBlendingCoefficients
-  name: InertialBlendingCoefficients
-  href: api/Unity.Animation.InertialBlendingCoefficients.html
-  commentId: T:Unity.Animation.InertialBlendingCoefficients
-  fullName: Unity.Animation.InertialBlendingCoefficients
-  nameWithType: InertialBlendingCoefficients
-- uid: Unity.Animation.InertialBlendingCoefficients.#ctor(System.Single,System.Single,System.Single)
-  name: InertialBlendingCoefficients(float, float, float)
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients__ctor_System_Single_System_Single_System_Single_
-  commentId: M:Unity.Animation.InertialBlendingCoefficients.#ctor(System.Single,System.Single,System.Single)
-  name.vb: New(Single, Single, Single)
-  fullName: Unity.Animation.InertialBlendingCoefficients.InertialBlendingCoefficients(float, float, float)
-  fullName.vb: Unity.Animation.InertialBlendingCoefficients.New(Single, Single, Single)
-  nameWithType: InertialBlendingCoefficients.InertialBlendingCoefficients(float, float, float)
-  nameWithType.vb: InertialBlendingCoefficients.New(Single, Single, Single)
-- uid: Unity.Animation.InertialBlendingCoefficients.#ctor*
-  name: InertialBlendingCoefficients
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients__ctor_
-  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Unity.Animation.InertialBlendingCoefficients.InertialBlendingCoefficients
-  fullName.vb: Unity.Animation.InertialBlendingCoefficients.New
-  nameWithType: InertialBlendingCoefficients.InertialBlendingCoefficients
-  nameWithType.vb: InertialBlendingCoefficients.New
-- uid: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(System.Single)
-  name: ComputeTimePowers(float)
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_ComputeTimePowers_System_Single_
-  commentId: M:Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(System.Single)
-  name.vb: ComputeTimePowers(Single)
-  fullName: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(float)
-  fullName.vb: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(Single)
-  nameWithType: InertialBlendingCoefficients.ComputeTimePowers(float)
-  nameWithType.vb: InertialBlendingCoefficients.ComputeTimePowers(Single)
-- uid: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers*
-  name: ComputeTimePowers
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_ComputeTimePowers_
-  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers
-  isSpec: "True"
-  fullName: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers
-  nameWithType: InertialBlendingCoefficients.ComputeTimePowers
-- uid: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4,System.Single)
-  name: Interpolate(float4, float)
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_Interpolate_Unity_Mathematics_float4_System_Single_
-  commentId: M:Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4,System.Single)
-  name.vb: Interpolate(float4, Single)
-  fullName: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4, float)
-  fullName.vb: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4, Single)
-  nameWithType: InertialBlendingCoefficients.Interpolate(float4, float)
-  nameWithType.vb: InertialBlendingCoefficients.Interpolate(float4, Single)
-- uid: Unity.Animation.InertialBlendingCoefficients.Interpolate*
-  name: Interpolate
-  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_Interpolate_
-  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.Interpolate
-  isSpec: "True"
-  fullName: Unity.Animation.InertialBlendingCoefficients.Interpolate
-  nameWithType: InertialBlendingCoefficients.Interpolate
-- uid: Unity.Animation.mathex
-  name: mathex
-  href: api/Unity.Animation.mathex.html
-  commentId: T:Unity.Animation.mathex
-  fullName: Unity.Animation.mathex
-  nameWithType: mathex
-- uid: Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
-  name: angle(quaternion)
-  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_angle_Unity_Mathematics_quaternion_
-  commentId: M:Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
-  fullName: Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
-  nameWithType: mathex.angle(quaternion)
-- uid: Unity.Animation.mathex.angle*
-  name: angle
-  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_angle_
-  commentId: Overload:Unity.Animation.mathex.angle
-  isSpec: "True"
-  fullName: Unity.Animation.mathex.angle
-  nameWithType: mathex.angle
-- uid: Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
-  name: axis(quaternion)
-  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_axis_Unity_Mathematics_quaternion_
-  commentId: M:Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
-  fullName: Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
-  nameWithType: mathex.axis(quaternion)
-- uid: Unity.Animation.mathex.axis*
-  name: axis
-  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_axis_
-  commentId: Overload:Unity.Animation.mathex.axis
-  isSpec: "True"
-  fullName: Unity.Animation.mathex.axis
-  nameWithType: mathex.axis
