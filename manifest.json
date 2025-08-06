@@ -482,6 +482,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.JointPreviousPose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.JointPreviousPose.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.Motion.Animation.yml",
       "output": {
         ".html": {
@@ -926,6 +936,46 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Sample.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.Animation.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.Animation.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.Animation.InertialBlendingCoefficients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.Animation.InertialBlendingCoefficients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.Animation.mathex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.Animation.mathex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Unity.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unity.Animation.html"
         }
       },
       "version": ""

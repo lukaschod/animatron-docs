@@ -232,6 +232,38 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.AnimatronAuthoring.FindAnimationIndex
   nameWithType: AnimatronAuthoring.FindAnimationIndex
+- uid: ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex(System.String)
+  name: FindJointIndex(string)
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_FindJointIndex_System_String_
+  commentId: M:ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex(System.String)
+  name.vb: FindJointIndex(String)
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex(string)
+  fullName.vb: ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex(String)
+  nameWithType: AnimatronAuthoring.FindJointIndex(string)
+  nameWithType.vb: AnimatronAuthoring.FindJointIndex(String)
+- uid: ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex*
+  name: FindJointIndex
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_FindJointIndex_
+  commentId: Overload:ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.FindJointIndex
+  nameWithType: AnimatronAuthoring.FindJointIndex
+- uid: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform(System.Int32)
+  name: GetJointWorldTransform(int)
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_GetJointWorldTransform_System_Int32_
+  commentId: M:ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform(System.Int32)
+  name.vb: GetJointWorldTransform(Integer)
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform(int)
+  fullName.vb: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform(Integer)
+  nameWithType: AnimatronAuthoring.GetJointWorldTransform(int)
+  nameWithType.vb: AnimatronAuthoring.GetJointWorldTransform(Integer)
+- uid: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform*
+  name: GetJointWorldTransform
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_GetJointWorldTransform_
+  commentId: Overload:ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform
+  nameWithType: AnimatronAuthoring.GetJointWorldTransform
 - uid: ProjectDawn.Animation.AnimatronAuthoring.IsPlaying
   name: IsPlaying
   href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_IsPlaying
@@ -381,6 +413,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.AnimatronAuthoring.TryFindAnimationIndex
   nameWithType: AnimatronAuthoring.TryFindAnimationIndex
+- uid: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex(System.String,System.Int32@)
+  name: TryFindJointIndex(string, out int)
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_TryFindJointIndex_System_String_System_Int32__
+  commentId: M:ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex(System.String,System.Int32@)
+  name.vb: TryFindJointIndex(String, Integer)
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex(string, out int)
+  fullName.vb: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex(String, Integer)
+  nameWithType: AnimatronAuthoring.TryFindJointIndex(string, out int)
+  nameWithType.vb: AnimatronAuthoring.TryFindJointIndex(String, Integer)
+- uid: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex*
+  name: TryFindJointIndex
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_TryFindJointIndex_
+  commentId: Overload:ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex
+  nameWithType: AnimatronAuthoring.TryFindJointIndex
 - uid: ProjectDawn.Animation.AnimatronAuthoring.m_CullingMode
   name: m_CullingMode
   href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_m_CullingMode
@@ -645,6 +693,12 @@ references:
   commentId: F:ProjectDawn.Animation.CrossFadeState.Overwrite
   fullName: ProjectDawn.Animation.CrossFadeState.Overwrite
   nameWithType: CrossFadeState.Overwrite
+- uid: ProjectDawn.Animation.CrossFadeState.OverwriteActive
+  name: OverwriteActive
+  href: api/ProjectDawn.Animation.CrossFadeState.html#ProjectDawn_Animation_CrossFadeState_OverwriteActive
+  commentId: F:ProjectDawn.Animation.CrossFadeState.OverwriteActive
+  fullName: ProjectDawn.Animation.CrossFadeState.OverwriteActive
+  nameWithType: CrossFadeState.OverwriteActive
 - uid: ProjectDawn.Animation.CrossFader
   name: CrossFader
   href: api/ProjectDawn.Animation.CrossFader.html
@@ -2055,6 +2109,31 @@ references:
   commentId: F:ProjectDawn.Animation.JointPose.Value
   fullName: ProjectDawn.Animation.JointPose.Value
   nameWithType: JointPose.Value
+- uid: ProjectDawn.Animation.JointPreviousPose
+  name: JointPreviousPose
+  href: api/ProjectDawn.Animation.JointPreviousPose.html
+  commentId: T:ProjectDawn.Animation.JointPreviousPose
+  fullName: ProjectDawn.Animation.JointPreviousPose
+  nameWithType: JointPreviousPose
+- uid: ProjectDawn.Animation.JointPreviousPose.Default
+  name: Default
+  href: api/ProjectDawn.Animation.JointPreviousPose.html#ProjectDawn_Animation_JointPreviousPose_Default
+  commentId: P:ProjectDawn.Animation.JointPreviousPose.Default
+  fullName: ProjectDawn.Animation.JointPreviousPose.Default
+  nameWithType: JointPreviousPose.Default
+- uid: ProjectDawn.Animation.JointPreviousPose.Default*
+  name: Default
+  href: api/ProjectDawn.Animation.JointPreviousPose.html#ProjectDawn_Animation_JointPreviousPose_Default_
+  commentId: Overload:ProjectDawn.Animation.JointPreviousPose.Default
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.JointPreviousPose.Default
+  nameWithType: JointPreviousPose.Default
+- uid: ProjectDawn.Animation.JointPreviousPose.Value
+  name: Value
+  href: api/ProjectDawn.Animation.JointPreviousPose.html#ProjectDawn_Animation_JointPreviousPose_Value
+  commentId: F:ProjectDawn.Animation.JointPreviousPose.Value
+  fullName: ProjectDawn.Animation.JointPreviousPose.Value
+  nameWithType: JointPreviousPose.Value
 - uid: ProjectDawn.Animation.Motion
   name: Motion
   href: api/ProjectDawn.Animation.Motion.html
@@ -4159,3 +4238,104 @@ references:
   commentId: T:ProjectDawn.Sample.VisualizeBlend
   fullName: ProjectDawn.Sample.VisualizeBlend
   nameWithType: VisualizeBlend
+- uid: Unity.Animation
+  name: Unity.Animation
+  href: api/Unity.Animation.html
+  commentId: N:Unity.Animation
+  fullName: Unity.Animation
+  nameWithType: Unity.Animation
+- uid: Unity.Animation.Core
+  name: Core
+  href: api/Unity.Animation.Core.html
+  commentId: T:Unity.Animation.Core
+  fullName: Unity.Animation.Core
+  nameWithType: Core
+- uid: Unity.Animation.InertialBlendingCoefficients
+  name: InertialBlendingCoefficients
+  href: api/Unity.Animation.InertialBlendingCoefficients.html
+  commentId: T:Unity.Animation.InertialBlendingCoefficients
+  fullName: Unity.Animation.InertialBlendingCoefficients
+  nameWithType: InertialBlendingCoefficients
+- uid: Unity.Animation.InertialBlendingCoefficients.#ctor(System.Single,System.Single,System.Single)
+  name: InertialBlendingCoefficients(float, float, float)
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Unity.Animation.InertialBlendingCoefficients.#ctor(System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single)
+  fullName: Unity.Animation.InertialBlendingCoefficients.InertialBlendingCoefficients(float, float, float)
+  fullName.vb: Unity.Animation.InertialBlendingCoefficients.New(Single, Single, Single)
+  nameWithType: InertialBlendingCoefficients.InertialBlendingCoefficients(float, float, float)
+  nameWithType.vb: InertialBlendingCoefficients.New(Single, Single, Single)
+- uid: Unity.Animation.InertialBlendingCoefficients.#ctor*
+  name: InertialBlendingCoefficients
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients__ctor_
+  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Unity.Animation.InertialBlendingCoefficients.InertialBlendingCoefficients
+  fullName.vb: Unity.Animation.InertialBlendingCoefficients.New
+  nameWithType: InertialBlendingCoefficients.InertialBlendingCoefficients
+  nameWithType.vb: InertialBlendingCoefficients.New
+- uid: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(System.Single)
+  name: ComputeTimePowers(float)
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_ComputeTimePowers_System_Single_
+  commentId: M:Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(System.Single)
+  name.vb: ComputeTimePowers(Single)
+  fullName: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(float)
+  fullName.vb: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers(Single)
+  nameWithType: InertialBlendingCoefficients.ComputeTimePowers(float)
+  nameWithType.vb: InertialBlendingCoefficients.ComputeTimePowers(Single)
+- uid: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers*
+  name: ComputeTimePowers
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_ComputeTimePowers_
+  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers
+  isSpec: "True"
+  fullName: Unity.Animation.InertialBlendingCoefficients.ComputeTimePowers
+  nameWithType: InertialBlendingCoefficients.ComputeTimePowers
+- uid: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4,System.Single)
+  name: Interpolate(float4, float)
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_Interpolate_Unity_Mathematics_float4_System_Single_
+  commentId: M:Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4,System.Single)
+  name.vb: Interpolate(float4, Single)
+  fullName: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4, float)
+  fullName.vb: Unity.Animation.InertialBlendingCoefficients.Interpolate(Unity.Mathematics.float4, Single)
+  nameWithType: InertialBlendingCoefficients.Interpolate(float4, float)
+  nameWithType.vb: InertialBlendingCoefficients.Interpolate(float4, Single)
+- uid: Unity.Animation.InertialBlendingCoefficients.Interpolate*
+  name: Interpolate
+  href: api/Unity.Animation.InertialBlendingCoefficients.html#Unity_Animation_InertialBlendingCoefficients_Interpolate_
+  commentId: Overload:Unity.Animation.InertialBlendingCoefficients.Interpolate
+  isSpec: "True"
+  fullName: Unity.Animation.InertialBlendingCoefficients.Interpolate
+  nameWithType: InertialBlendingCoefficients.Interpolate
+- uid: Unity.Animation.mathex
+  name: mathex
+  href: api/Unity.Animation.mathex.html
+  commentId: T:Unity.Animation.mathex
+  fullName: Unity.Animation.mathex
+  nameWithType: mathex
+- uid: Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
+  name: angle(quaternion)
+  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_angle_Unity_Mathematics_quaternion_
+  commentId: M:Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
+  fullName: Unity.Animation.mathex.angle(Unity.Mathematics.quaternion)
+  nameWithType: mathex.angle(quaternion)
+- uid: Unity.Animation.mathex.angle*
+  name: angle
+  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_angle_
+  commentId: Overload:Unity.Animation.mathex.angle
+  isSpec: "True"
+  fullName: Unity.Animation.mathex.angle
+  nameWithType: mathex.angle
+- uid: Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
+  name: axis(quaternion)
+  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_axis_Unity_Mathematics_quaternion_
+  commentId: M:Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
+  fullName: Unity.Animation.mathex.axis(Unity.Mathematics.quaternion)
+  nameWithType: mathex.axis(quaternion)
+- uid: Unity.Animation.mathex.axis*
+  name: axis
+  href: api/Unity.Animation.mathex.html#Unity_Animation_mathex_axis_
+  commentId: Overload:Unity.Animation.mathex.axis
+  isSpec: "True"
+  fullName: Unity.Animation.mathex.axis
+  nameWithType: mathex.axis
