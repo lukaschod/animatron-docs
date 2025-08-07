@@ -1884,6 +1884,68 @@ references:
   commentId: F:ProjectDawn.Animation.InertializationCoefficients.x0
   fullName: ProjectDawn.Animation.InertializationCoefficients.x0
   nameWithType: InertializationCoefficients.x0
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized
+  name: InertializationCoefficientsOptimized
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html
+  commentId: T:ProjectDawn.Animation.InertializationCoefficientsOptimized
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized
+  nameWithType: InertializationCoefficientsOptimized
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.Create(System.Single,System.Single,System.Single)
+  name: Create(float, float, float)
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_Create_System_Single_System_Single_System_Single_
+  commentId: M:ProjectDawn.Animation.InertializationCoefficientsOptimized.Create(System.Single,System.Single,System.Single)
+  name.vb: Create(Single, Single, Single)
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.Create(float, float, float)
+  fullName.vb: ProjectDawn.Animation.InertializationCoefficientsOptimized.Create(Single, Single, Single)
+  nameWithType: InertializationCoefficientsOptimized.Create(float, float, float)
+  nameWithType.vb: InertializationCoefficientsOptimized.Create(Single, Single, Single)
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.Create*
+  name: Create
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_Create_
+  commentId: Overload:ProjectDawn.Animation.InertializationCoefficientsOptimized.Create
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.Create
+  nameWithType: InertializationCoefficientsOptimized.Create
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.DCBA
+  name: DCBA
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_DCBA
+  commentId: F:ProjectDawn.Animation.InertializationCoefficientsOptimized.DCBA
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.DCBA
+  nameWithType: InertializationCoefficientsOptimized.DCBA
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate(ProjectDawn.Animation.TimePower@)
+  name: Evaluate(in TimePower)
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_Evaluate_ProjectDawn_Animation_TimePower__
+  commentId: M:ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate(ProjectDawn.Animation.TimePower@)
+  name.vb: Evaluate(TimePower)
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate(in ProjectDawn.Animation.TimePower)
+  fullName.vb: ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate(ProjectDawn.Animation.TimePower)
+  nameWithType: InertializationCoefficientsOptimized.Evaluate(in TimePower)
+  nameWithType.vb: InertializationCoefficientsOptimized.Evaluate(TimePower)
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate*
+  name: Evaluate
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_Evaluate_
+  commentId: Overload:ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.Evaluate
+  nameWithType: InertializationCoefficientsOptimized.Evaluate
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.t1
+  name: t1
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_t1
+  commentId: F:ProjectDawn.Animation.InertializationCoefficientsOptimized.t1
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.t1
+  nameWithType: InertializationCoefficientsOptimized.t1
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.v0
+  name: v0
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_v0
+  commentId: F:ProjectDawn.Animation.InertializationCoefficientsOptimized.v0
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.v0
+  nameWithType: InertializationCoefficientsOptimized.v0
+- uid: ProjectDawn.Animation.InertializationCoefficientsOptimized.x0
+  name: x0
+  href: api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html#ProjectDawn_Animation_InertializationCoefficientsOptimized_x0
+  commentId: F:ProjectDawn.Animation.InertializationCoefficientsOptimized.x0
+  fullName: ProjectDawn.Animation.InertializationCoefficientsOptimized.x0
+  nameWithType: InertializationCoefficientsOptimized.x0
 - uid: ProjectDawn.Animation.Inertializer
   name: Inertializer
   href: api/ProjectDawn.Animation.Inertializer.html
@@ -3510,6 +3572,115 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.SkinSystem.OnCreateForCompiler
   nameWithType: SkinSystem.OnCreateForCompiler
+- uid: ProjectDawn.Animation.Tests
+  name: ProjectDawn.Animation.Tests
+  href: api/ProjectDawn.Animation.Tests.html
+  commentId: N:ProjectDawn.Animation.Tests
+  fullName: ProjectDawn.Animation.Tests
+  nameWithType: ProjectDawn.Animation.Tests
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests
+  name: InertializationPerformanceTests
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html
+  commentId: T:ProjectDawn.Animation.Tests.InertializationPerformanceTests
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests
+  nameWithType: InertializationPerformanceTests
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create
+  name: InertializationPerformanceTests_Create()
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Create
+  commentId: M:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create()
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Create()
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create*
+  name: InertializationPerformanceTests_Create
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Create_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Create
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized
+  name: InertializationPerformanceTests_Create_Optimized()
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Create_Optimized
+  commentId: M:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized()
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized()
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized*
+  name: InertializationPerformanceTests_Create_Optimized
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Create_Optimized_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Create_Optimized
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate
+  name: InertializationPerformanceTests_Eveluate()
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Eveluate
+  commentId: M:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate()
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Eveluate()
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate*
+  name: InertializationPerformanceTests_Eveluate
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Eveluate_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Eveluate
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized
+  name: InertializationPerformanceTests_Eveluate_Optimized()
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Eveluate_Optimized
+  commentId: M:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized()
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized()
+- uid: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized*
+  name: InertializationPerformanceTests_Eveluate_Optimized
+  href: api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html#ProjectDawn_Animation_Tests_InertializationPerformanceTests_InertializationPerformanceTests_Eveluate_Optimized_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized
+  nameWithType: InertializationPerformanceTests.InertializationPerformanceTests_Eveluate_Optimized
+- uid: ProjectDawn.Animation.Tests.InertializationTests
+  name: InertializationTests
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html
+  commentId: T:ProjectDawn.Animation.Tests.InertializationTests
+  fullName: ProjectDawn.Animation.Tests.InertializationTests
+  nameWithType: InertializationTests
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works
+  name: InertializationTests_Float3Inertia_Works()
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_Float3Inertia_Works
+  commentId: M:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works()
+  nameWithType: InertializationTests.InertializationTests_Float3Inertia_Works()
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works*
+  name: InertializationTests_Float3Inertia_Works
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_Float3Inertia_Works_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Float3Inertia_Works
+  nameWithType: InertializationTests.InertializationTests_Float3Inertia_Works
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works
+  name: InertializationTests_QuaternionInertia_Works()
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_QuaternionInertia_Works
+  commentId: M:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works()
+  nameWithType: InertializationTests.InertializationTests_QuaternionInertia_Works()
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works*
+  name: InertializationTests_QuaternionInertia_Works
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_QuaternionInertia_Works_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_QuaternionInertia_Works
+  nameWithType: InertializationTests.InertializationTests_QuaternionInertia_Works
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches
+  name: InertializationTests_Regular_And_Optimized_Matches()
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_Regular_And_Optimized_Matches
+  commentId: M:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches()
+  nameWithType: InertializationTests.InertializationTests_Regular_And_Optimized_Matches()
+- uid: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches*
+  name: InertializationTests_Regular_And_Optimized_Matches
+  href: api/ProjectDawn.Animation.Tests.InertializationTests.html#ProjectDawn_Animation_Tests_InertializationTests_InertializationTests_Regular_And_Optimized_Matches_
+  commentId: Overload:ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Tests.InertializationTests.InertializationTests_Regular_And_Optimized_Matches
+  nameWithType: InertializationTests.InertializationTests_Regular_And_Optimized_Matches
 - uid: ProjectDawn.Animation.TimePower
   name: TimePower
   href: api/ProjectDawn.Animation.TimePower.html

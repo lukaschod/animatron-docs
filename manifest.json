@@ -412,6 +412,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.InertializationCoefficientsOptimized.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.Inertializer.yml",
       "output": {
         ".html": {
@@ -646,6 +656,36 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.SkinSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Tests.InertializationPerformanceTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Tests.InertializationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Tests.InertializationTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.Tests.html"
         }
       },
       "version": ""
