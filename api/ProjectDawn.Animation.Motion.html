@@ -177,6 +177,67 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_EventData.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.EventData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L82">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Animation_Motion_EventData" data-uid="ProjectDawn.Animation.Motion.EventData">EventData</h4>
+  <div class="markdown level1 summary"><p>Memory blob that contains all events data. It is recommended to avoid directly using this field and instead use <a class="xref" href="ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_GetEventData__1_ProjectDawn_Animation_Motion_Event_">GetEventData&lt;T&gt;(Event)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public BlobArray&lt;byte&gt; EventData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BlobArray</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_Events.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.Events%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L78">View Source</a>
+  </span>
+  <h4 id="ProjectDawn_Animation_Motion_Events" data-uid="ProjectDawn.Animation.Motion.Events">Events</h4>
+  <div class="markdown level1 summary"><p>For each pose contains the event.
+This is optional array, it might be zero size or <a class="xref" href="ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_PoseCount">PoseCount</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public BlobArray&lt;Motion.Event&gt; Events</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BlobArray</span>&lt;<a class="xref" href="ProjectDawn.Animation.Motion.html">Motion</a>.<a class="xref" href="ProjectDawn.Animation.Motion.Event.html">Event</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_JointCount.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.JointCount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -274,7 +335,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L60">View Source</a>
   </span>
   <h4 id="ProjectDawn_Animation_Motion_Transforms" data-uid="ProjectDawn.Animation.Motion.Transforms">Transforms</h4>
-  <div class="markdown level1 summary"><p>Flattened array of all joints transforms.</p>
+  <div class="markdown level1 summary"><p>Flattened array of all joints transforms. Always the size of <a class="xref" href="ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_PoseCount">PoseCount</a>/.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -303,7 +364,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_Blend_ProjectDawn_Animation_RigidTransform__ProjectDawn_Animation_RigidTransform__System_Single_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*%2CProjectDawn.Animation.RigidTransform*%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L318">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L327">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_Blend_" data-uid="ProjectDawn.Animation.Motion.Blend*"></a>
   <h4 id="ProjectDawn_Animation_Motion_Blend_ProjectDawn_Animation_RigidTransform__ProjectDawn_Animation_RigidTransform__System_Single_" data-uid="ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*,ProjectDawn.Animation.RigidTransform*,System.Single)">Blend(RigidTransform*, RigidTransform*, float)</h4>
@@ -349,7 +410,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_FindAnimationIndex_Unity_Collections_FixedString64Bytes__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.FindAnimationIndex(Unity.Collections.FixedString64Bytes%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L300">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L309">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_FindAnimationIndex_" data-uid="ProjectDawn.Animation.Motion.FindAnimationIndex*"></a>
   <h4 id="ProjectDawn_Animation_Motion_FindAnimationIndex_Unity_Collections_FixedString64Bytes__" data-uid="ProjectDawn.Animation.Motion.FindAnimationIndex(Unity.Collections.FixedString64Bytes@)">FindAnimationIndex(in FixedString64Bytes)</h4>
@@ -409,10 +470,73 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetEventData__1_ProjectDawn_Animation_Motion_Event_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetEventData%60%601(ProjectDawn.Animation.Motion.Event)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L444">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_Motion_GetEventData_" data-uid="ProjectDawn.Animation.Motion.GetEventData*"></a>
+  <h4 id="ProjectDawn_Animation_Motion_GetEventData__1_ProjectDawn_Animation_Motion_Event_" data-uid="ProjectDawn.Animation.Motion.GetEventData``1(ProjectDawn.Animation.Motion.Event)">GetEventData&lt;T&gt;(Event)</h4>
+  <div class="markdown level1 summary"><p>Returns event data associated with the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public T GetEventData&lt;T&gt;(Motion.Event e) where T : unmanaged</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Animation.Motion.html">Motion</a>.<a class="xref" href="ProjectDawn.Animation.Motion.Event.html">Event</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetJointLocalToParentTransform_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetJointLocalToParentTransform(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L256">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L265">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_GetJointLocalToParentTransform_" data-uid="ProjectDawn.Animation.Motion.GetJointLocalToParentTransform*"></a>
   <h4 id="ProjectDawn_Animation_Motion_GetJointLocalToParentTransform_System_Int32_System_Int32_" data-uid="ProjectDawn.Animation.Motion.GetJointLocalToParentTransform(System.Int32,System.Int32)">GetJointLocalToParentTransform(int, int)</h4>
@@ -465,7 +589,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetJointTransformIndex_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetJointTransformIndex(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L248">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L257">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_GetJointTransformIndex_" data-uid="ProjectDawn.Animation.Motion.GetJointTransformIndex*"></a>
   <h4 id="ProjectDawn_Animation_Motion_GetJointTransformIndex_System_Int32_System_Int32_" data-uid="ProjectDawn.Animation.Motion.GetJointTransformIndex(System.Int32,System.Int32)">GetJointTransformIndex(int, int)</h4>
@@ -518,7 +642,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetNormalizedTime_ProjectDawn_Animation_AnimationIndex_System_Single_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetNormalizedTime(ProjectDawn.Animation.AnimationIndex%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L267">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L276">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_GetNormalizedTime_" data-uid="ProjectDawn.Animation.Motion.GetNormalizedTime*"></a>
   <h4 id="ProjectDawn_Animation_Motion_GetNormalizedTime_ProjectDawn_Animation_AnimationIndex_System_Single_" data-uid="ProjectDawn.Animation.Motion.GetNormalizedTime(ProjectDawn.Animation.AnimationIndex,System.Single)">GetNormalizedTime(AnimationIndex, float)</h4>
@@ -571,7 +695,7 @@ PoseStride = JointCount * sizeof(AnyTransform).</p>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetPoseTime_ProjectDawn_Animation_AnimationIndex_System_Int32_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetPoseTime(ProjectDawn.Animation.AnimationIndex%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L115">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L124">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_GetPoseTime_" data-uid="ProjectDawn.Animation.Motion.GetPoseTime*"></a>
   <h4 id="ProjectDawn_Animation_Motion_GetPoseTime_ProjectDawn_Animation_AnimationIndex_System_Int32_" data-uid="ProjectDawn.Animation.Motion.GetPoseTime(ProjectDawn.Animation.AnimationIndex,System.Int32)">GetPoseTime(AnimationIndex, int)</h4>
@@ -625,7 +749,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_GetPoseTime_ProjectDawn_Animation_AnimationIndex_System_Single_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.GetPoseTime(ProjectDawn.Animation.AnimationIndex%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L84">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L93">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_GetPoseTime_" data-uid="ProjectDawn.Animation.Motion.GetPoseTime*"></a>
   <h4 id="ProjectDawn_Animation_Motion_GetPoseTime_ProjectDawn_Animation_AnimationIndex_System_Single_" data-uid="ProjectDawn.Animation.Motion.GetPoseTime(ProjectDawn.Animation.AnimationIndex,System.Single)">GetPoseTime(AnimationIndex, float)</h4>
@@ -676,10 +800,78 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_HasEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.HasEvent%60%601(ProjectDawn.Animation.AnimationIndex%2CUnity.Mathematics.int2)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L407">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_Motion_HasEvent_" data-uid="ProjectDawn.Animation.Motion.HasEvent*"></a>
+  <h4 id="ProjectDawn_Animation_Motion_HasEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2_" data-uid="ProjectDawn.Animation.Motion.HasEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2)">HasEvent&lt;T&gt;(AnimationIndex, int2)</h4>
+  <div class="markdown level1 summary"><p>Returns true, if event exists within pose range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool HasEvent&lt;T&gt;(AnimationIndex animationIndex, int2 poses) where T : unmanaged, IEventData</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Animation.AnimationIndex.html">AnimationIndex</a></td>
+        <td><span class="parametername">animationIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int2</span></td>
+        <td><span class="parametername">poses</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_IsValidAnimationIndex_ProjectDawn_Animation_AnimationIndex_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.IsValidAnimationIndex(ProjectDawn.Animation.AnimationIndex)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L78">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L87">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_IsValidAnimationIndex_" data-uid="ProjectDawn.Animation.Motion.IsValidAnimationIndex*"></a>
   <h4 id="ProjectDawn_Animation_Motion_IsValidAnimationIndex_ProjectDawn_Animation_AnimationIndex_" data-uid="ProjectDawn.Animation.Motion.IsValidAnimationIndex(ProjectDawn.Animation.AnimationIndex)">IsValidAnimationIndex(AnimationIndex)</h4>
@@ -727,7 +919,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__ProjectDawn_Animation_SamplingMode_System_Span_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime%40%2CProjectDawn.Animation.SamplingMode%2CSystem.Span%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L145">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L154">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePose_" data-uid="ProjectDawn.Animation.Motion.SamplePose*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__ProjectDawn_Animation_SamplingMode_System_Span_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime@,ProjectDawn.Animation.SamplingMode,System.Span{ProjectDawn.Animation.RigidTransform})">SamplePose(in PoseTime, SamplingMode, Span&lt;RigidTransform&gt;)</h4>
@@ -773,7 +965,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime%40%2CSystem.Span%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L168">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L177">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePose_" data-uid="ProjectDawn.Animation.Motion.SamplePose*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime@,System.Span{ProjectDawn.Animation.RigidTransform})">SamplePose(in PoseTime, Span&lt;RigidTransform&gt;)</h4>
@@ -811,7 +1003,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime%40%2CUnity.Collections.NativeArray%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L164">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L173">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePose_" data-uid="ProjectDawn.Animation.Motion.SamplePose*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime@,Unity.Collections.NativeArray{ProjectDawn.Animation.RigidTransform})">SamplePose(in PoseTime, NativeArray&lt;RigidTransform&gt;)</h4>
@@ -849,7 +1041,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePoseLinear_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePoseLinear(ProjectDawn.Animation.Motion.PoseTime%40%2CSystem.Span%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L181">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L190">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePoseLinear_" data-uid="ProjectDawn.Animation.Motion.SamplePoseLinear*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePoseLinear_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePoseLinear(ProjectDawn.Animation.Motion.PoseTime@,System.Span{ProjectDawn.Animation.RigidTransform})">SamplePoseLinear(in PoseTime, Span&lt;RigidTransform&gt;)</h4>
@@ -887,7 +1079,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePoseLinear_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePoseLinear(ProjectDawn.Animation.Motion.PoseTime%40%2CUnity.Collections.NativeArray%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L177">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L186">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePoseLinear_" data-uid="ProjectDawn.Animation.Motion.SamplePoseLinear*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePoseLinear_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePoseLinear(ProjectDawn.Animation.Motion.PoseTime@,Unity.Collections.NativeArray{ProjectDawn.Animation.RigidTransform})">SamplePoseLinear(in PoseTime, NativeArray&lt;RigidTransform&gt;)</h4>
@@ -925,7 +1117,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePoseUniformS_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePoseUniformS(ProjectDawn.Animation.Motion.PoseTime%40%2CSystem.Span%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L233">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L242">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePoseUniformS_" data-uid="ProjectDawn.Animation.Motion.SamplePoseUniformS*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePoseUniformS_ProjectDawn_Animation_Motion_PoseTime__System_Span_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePoseUniformS(ProjectDawn.Animation.Motion.PoseTime@,System.Span{ProjectDawn.Animation.RigidTransform})">SamplePoseUniformS(in PoseTime, Span&lt;RigidTransform&gt;)</h4>
@@ -963,7 +1155,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_SamplePoseUniformS_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.SamplePoseUniformS(ProjectDawn.Animation.Motion.PoseTime%40%2CUnity.Collections.NativeArray%7BProjectDawn.Animation.RigidTransform%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L229">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L238">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_SamplePoseUniformS_" data-uid="ProjectDawn.Animation.Motion.SamplePoseUniformS*"></a>
   <h4 id="ProjectDawn_Animation_Motion_SamplePoseUniformS_ProjectDawn_Animation_Motion_PoseTime__Unity_Collections_NativeArray_ProjectDawn_Animation_RigidTransform__" data-uid="ProjectDawn.Animation.Motion.SamplePoseUniformS(ProjectDawn.Animation.Motion.PoseTime@,Unity.Collections.NativeArray{ProjectDawn.Animation.RigidTransform})">SamplePoseUniformS(in PoseTime, NativeArray&lt;RigidTransform&gt;)</h4>
@@ -1001,7 +1193,7 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_TryFindAnimationIndex_Unity_Collections_FixedString64Bytes__ProjectDawn_Animation_AnimationIndex__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.TryFindAnimationIndex(Unity.Collections.FixedString64Bytes%40%2CProjectDawn.Animation.AnimationIndex%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L284">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L293">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Motion_TryFindAnimationIndex_" data-uid="ProjectDawn.Animation.Motion.TryFindAnimationIndex*"></a>
   <h4 id="ProjectDawn_Animation_Motion_TryFindAnimationIndex_Unity_Collections_FixedString64Bytes__ProjectDawn_Animation_AnimationIndex__" data-uid="ProjectDawn.Animation.Motion.TryFindAnimationIndex(Unity.Collections.FixedString64Bytes@,ProjectDawn.Animation.AnimationIndex@)">TryFindAnimationIndex(in FixedString64Bytes, out AnimationIndex)</h4>
@@ -1060,6 +1252,79 @@ It can be used for sampling poses etc <a class="xref" href="ProjectDawn.Animatio
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Motion_TryGetEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2___0__.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Motion.TryGetEvent%60%601(ProjectDawn.Animation.AnimationIndex%2CUnity.Mathematics.int2%2C%60%600%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L357">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_Motion_TryGetEvent_" data-uid="ProjectDawn.Animation.Motion.TryGetEvent*"></a>
+  <h4 id="ProjectDawn_Animation_Motion_TryGetEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2___0__" data-uid="ProjectDawn.Animation.Motion.TryGetEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2,``0@)">TryGetEvent&lt;T&gt;(AnimationIndex, int2, out T)</h4>
+  <div class="markdown level1 summary"><p>Returns event withing the pose range, if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public bool TryGetEvent&lt;T&gt;(AnimationIndex animationIndex, int2 poses, out T e) where T : unmanaged, IEventData</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProjectDawn.Animation.AnimationIndex.html">AnimationIndex</a></td>
+        <td><span class="parametername">animationIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">int2</span></td>
+        <td><span class="parametername">poses</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

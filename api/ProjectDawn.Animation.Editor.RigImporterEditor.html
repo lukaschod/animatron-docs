@@ -101,9 +101,6 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">AssetImporterEditor.InitializeExtraDataInstance(Object, int)</a>
     </div>
     <div>
-      <span class="xref">AssetImporterEditor.DrawPreview(Rect)</span>
-    </div>
-    <div>
       <span class="xref">AssetImporterEditor.Awake()</span>
     </div>
     <div>
@@ -233,19 +230,10 @@
       <span class="xref">Editor.DrawFoldoutInspector(Object, ref Editor)</span>
     </div>
     <div>
-      <span class="xref">Editor.HasPreviewGUI()</span>
-    </div>
-    <div>
       <span class="xref">Editor.GetPreviewTitle()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Editor.RenderStaticPreview(string, Object[], int, int)</a>
-    </div>
-    <div>
-      <span class="xref">Editor.OnPreviewGUI(Rect, GUIStyle)</span>
-    </div>
-    <div>
-      <span class="xref">Editor.OnInteractivePreviewGUI(Rect, GUIStyle)</span>
     </div>
     <div>
       <span class="xref">Editor.OnPreviewSettings()</span>
@@ -514,7 +502,7 @@ public class RigImporterEditor : ScriptedImporterEditor</code></pre>
     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_CreateInspectorGUI.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.CreateInspectorGUI%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L119">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L199">View Source</a>
   </span>
   <a id="ProjectDawn_Animation_Editor_RigImporterEditor_CreateInspectorGUI_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.CreateInspectorGUI*"></a>
   <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_CreateInspectorGUI" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.CreateInspectorGUI">CreateInspectorGUI()</h4>
@@ -544,34 +532,160 @@ public class RigImporterEditor : ScriptedImporterEditor</code></pre>
   <div><span class="xref">UnityEditor.Editor.CreateInspectorGUI()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_RebuildJointView.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_DrawPreview_UnityEngine_Rect_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview(UnityEngine.Rect)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L62">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L358">View Source</a>
   </span>
-  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_RebuildJointView_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView*"></a>
-  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_RebuildJointView" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView">RebuildJointView()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_DrawPreview_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview*"></a>
+  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_DrawPreview_UnityEngine_Rect_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview(UnityEngine.Rect)">DrawPreview(Rect)</h4>
+  <div class="markdown level1 summary"><p>The first entry point for Preview Drawing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public void RebuildJointView()</code></pre>
+    <pre><code class="lang- hljs">public override void DrawPreview(Rect previewArea)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">previewArea</span></td>
+        <td><p>The available area to draw the preview.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.AssetImporters.AssetImporterEditor.DrawPreview(UnityEngine.Rect)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_RebuildSkinView.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_HasPreviewGUI.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L15">View Source</a>
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L355">View Source</a>
   </span>
-  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_RebuildSkinView_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView*"></a>
-  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_RebuildSkinView" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView">RebuildSkinView()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_HasPreviewGUI_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI*"></a>
+  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_HasPreviewGUI" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI">HasPreviewGUI()</h4>
+  <div class="markdown level1 summary"><p>Override this method in subclasses if you implement OnPreviewGUI.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public void RebuildSkinView()</code></pre>
+    <pre><code class="lang- hljs">public override bool HasPreviewGUI()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>True if this component can be Previewed in its current state.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Editor.HasPreviewGUI()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_OnInteractivePreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI(UnityEngine.Rect%2CUnityEngine.GUIStyle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L357">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_OnInteractivePreviewGUI_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI*"></a>
+  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_OnInteractivePreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">OnInteractivePreviewGUI(Rect, GUIStyle)</h4>
+  <div class="markdown level1 summary"><p>Implement to create your own interactive custom preview. Interactive custom previews are used in the preview area of the inspector and the object selector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public override void OnInteractivePreviewGUI(Rect r, GUIStyle background)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>Rectangle in which to draw the preview.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GUIStyle</span></td>
+        <td><span class="parametername">background</span></td>
+        <td><p>Background image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Editor.OnInteractivePreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor_OnPreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI(UnityEngine.Rect%2CUnityEngine.GUIStyle)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L356">View Source</a>
+  </span>
+  <a id="ProjectDawn_Animation_Editor_RigImporterEditor_OnPreviewGUI_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI*"></a>
+  <h4 id="ProjectDawn_Animation_Editor_RigImporterEditor_OnPreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_" data-uid="ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">OnPreviewGUI(Rect, GUIStyle)</h4>
+  <div class="markdown level1 summary"><pre><code>&lt;p&gt;Creates a custom preview for the preview area of the Inspector, the headers of the primary Editor, and the object selector.
+</code></pre>
+<p>You must implement Editor.HasPreviewGUI for this method to be called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang- hljs">public override void OnPreviewGUI(Rect r, GUIStyle background)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">r</span></td>
+        <td><p>The rectangle in which to draw the preview.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">GUIStyle</span></td>
+        <td><span class="parametername">background</span></td>
+        <td><p>Background image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Editor.OnPreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)</span></div>
 </article>
           </div>
 
@@ -583,7 +697,7 @@ public class RigImporterEditor : ScriptedImporterEditor</code></pre>
                     <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_Editor_RigImporterEditor.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.Editor.RigImporterEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron.Editor/RigImporterEditor.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

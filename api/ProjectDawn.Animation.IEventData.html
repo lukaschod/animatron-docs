@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum SamplingMode
+    <title>Interface IEventData
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum SamplingMode
+    <meta name="title" content="Interface IEventData
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,47 +78,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.SamplingMode">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.IEventData">
 
 
-  <h1 id="ProjectDawn_Animation_SamplingMode" data-uid="ProjectDawn.Animation.SamplingMode" class="text-break">Enum SamplingMode
+  <h1 id="ProjectDawn_Animation_IEventData" data-uid="ProjectDawn.Animation.IEventData" class="text-break">Interface IEventData
 </h1>
-  <div class="markdown level0 summary"><p>Controls pose sample interpolation.</p>
+  <div class="markdown level0 summary"><p>Marks this structure as usable for Animatron events.
+Also indicates that it implements <span class="xref">Unity.Entities.IComponentData</span>.
+The type must be blittable: <a href="https://learn.microsoft.com/en-us/dotnet/framework/interop/blittable-and-non-blittable-types">https://learn.microsoft.com/en-us/dotnet/framework/interop/blittable-and-non-blittable-types</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Animatron.dll</h6>
-  <h5 id="ProjectDawn_Animation_SamplingMode_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Animation_IEventData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">public enum SamplingMode</code></pre>
+    <pre><code class="lang- hljs">public interface IEventData : IComponentData, IQueryTypeParameter</code></pre>
   </div>
-  <h3 id="fields">Fields
-</h3>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    <thead>
-    </thead></thead><tbody>
-      <tr>
-        <td id="ProjectDawn_Animation_SamplingMode_Interpolated">Interpolated</td>
-        <td><p>Linear interpolation good for mechanical armatures.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Animation_SamplingMode_Nearest">Nearest</td>
-        <td><p>No interpolation at all.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="ProjectDawn_Animation_SamplingMode_UniformS">UniformS</td>
-        <td><p>Uniform-S interpolation good for organic armatures.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
 
@@ -127,10 +102,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_SamplingMode.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.SamplingMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_IEventData.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.IEventData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/AnimatronAuthoring.cs/#L471" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/Motion.cs/#L552" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

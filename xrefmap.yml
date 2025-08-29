@@ -166,6 +166,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Animatron.Play
   nameWithType: Animatron.Play
+- uid: ProjectDawn.Animation.Animatron.PlayedPoses
+  name: PlayedPoses
+  href: api/ProjectDawn.Animation.Animatron.html#ProjectDawn_Animation_Animatron_PlayedPoses
+  commentId: F:ProjectDawn.Animation.Animatron.PlayedPoses
+  fullName: ProjectDawn.Animation.Animatron.PlayedPoses
+  nameWithType: Animatron.PlayedPoses
 - uid: ProjectDawn.Animation.Animatron.SamplingMode
   name: SamplingMode
   href: api/ProjectDawn.Animation.Animatron.html#ProjectDawn_Animation_Animatron_SamplingMode
@@ -264,6 +270,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.AnimatronAuthoring.GetJointWorldTransform
   nameWithType: AnimatronAuthoring.GetJointWorldTransform
+- uid: ProjectDawn.Animation.AnimatronAuthoring.HasEvent*
+  name: HasEvent
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_HasEvent_
+  commentId: Overload:ProjectDawn.Animation.AnimatronAuthoring.HasEvent
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.HasEvent
+  nameWithType: AnimatronAuthoring.HasEvent
+- uid: ProjectDawn.Animation.AnimatronAuthoring.HasEvent``1
+  name: HasEvent<T>()
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_HasEvent__1
+  commentId: M:ProjectDawn.Animation.AnimatronAuthoring.HasEvent``1
+  name.vb: HasEvent(Of T)()
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.HasEvent<T>()
+  fullName.vb: ProjectDawn.Animation.AnimatronAuthoring.HasEvent(Of T)()
+  nameWithType: AnimatronAuthoring.HasEvent<T>()
+  nameWithType.vb: AnimatronAuthoring.HasEvent(Of T)()
 - uid: ProjectDawn.Animation.AnimatronAuthoring.IsPlaying
   name: IsPlaying
   href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_IsPlaying
@@ -429,6 +451,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.AnimatronAuthoring.TryFindJointIndex
   nameWithType: AnimatronAuthoring.TryFindJointIndex
+- uid: ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent*
+  name: TryGetEvent
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_TryGetEvent_
+  commentId: Overload:ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent
+  nameWithType: AnimatronAuthoring.TryGetEvent
+- uid: ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent``1(``0@)
+  name: TryGetEvent<T>(out T)
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_TryGetEvent__1___0__
+  commentId: M:ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent``1(``0@)
+  name.vb: TryGetEvent(Of T)(T)
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent<T>(out T)
+  fullName.vb: ProjectDawn.Animation.AnimatronAuthoring.TryGetEvent(Of T)(T)
+  nameWithType: AnimatronAuthoring.TryGetEvent<T>(out T)
+  nameWithType.vb: AnimatronAuthoring.TryGetEvent(Of T)(T)
 - uid: ProjectDawn.Animation.AnimatronAuthoring.m_CullingMode
   name: m_CullingMode
   href: api/ProjectDawn.Animation.AnimatronAuthoring.html#ProjectDawn_Animation_AnimatronAuthoring_m_CullingMode
@@ -952,6 +990,73 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Editor.CrossFaderEditor.CreateInspectorGUI
   nameWithType: CrossFaderEditor.CreateInspectorGUI
+- uid: ProjectDawn.Animation.Editor.EventDrawer
+  name: EventDrawer
+  href: api/ProjectDawn.Animation.Editor.EventDrawer.html
+  commentId: T:ProjectDawn.Animation.Editor.EventDrawer
+  fullName: ProjectDawn.Animation.Editor.EventDrawer
+  nameWithType: EventDrawer
+- uid: ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  name: CreatePropertyGUI(SerializedProperty)
+  href: api/ProjectDawn.Animation.Editor.EventDrawer.html#ProjectDawn_Animation_Editor_EventDrawer_CreatePropertyGUI_UnityEditor_SerializedProperty_
+  commentId: M:ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  fullName: ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI(UnityEditor.SerializedProperty)
+  nameWithType: EventDrawer.CreatePropertyGUI(SerializedProperty)
+- uid: ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI*
+  name: CreatePropertyGUI
+  href: api/ProjectDawn.Animation.Editor.EventDrawer.html#ProjectDawn_Animation_Editor_EventDrawer_CreatePropertyGUI_
+  commentId: Overload:ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.EventDrawer.CreatePropertyGUI
+  nameWithType: EventDrawer.CreatePropertyGUI
+- uid: ProjectDawn.Animation.Editor.EventTypeManager
+  name: EventTypeManager
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html
+  commentId: T:ProjectDawn.Animation.Editor.EventTypeManager
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager
+  nameWithType: EventTypeManager
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.Names
+  name: Names
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_Names
+  commentId: P:ProjectDawn.Animation.Editor.EventTypeManager.Names
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.Names
+  nameWithType: EventTypeManager.Names
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.Names*
+  name: Names
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_Names_
+  commentId: Overload:ProjectDawn.Animation.Editor.EventTypeManager.Names
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.Names
+  nameWithType: EventTypeManager.Names
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName(System.String,System.Type@)
+  name: TryGetTypeFromName(string, out Type)
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_TryGetTypeFromName_System_String_System_Type__
+  commentId: M:ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName(System.String,System.Type@)
+  name.vb: TryGetTypeFromName(String, Type)
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName(string, out System.Type)
+  fullName.vb: ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName(String, System.Type)
+  nameWithType: EventTypeManager.TryGetTypeFromName(string, out Type)
+  nameWithType.vb: EventTypeManager.TryGetTypeFromName(String, Type)
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName*
+  name: TryGetTypeFromName
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_TryGetTypeFromName_
+  commentId: Overload:ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.TryGetTypeFromName
+  nameWithType: EventTypeManager.TryGetTypeFromName
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.Types
+  name: Types
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_Types
+  commentId: P:ProjectDawn.Animation.Editor.EventTypeManager.Types
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.Types
+  nameWithType: EventTypeManager.Types
+- uid: ProjectDawn.Animation.Editor.EventTypeManager.Types*
+  name: Types
+  href: api/ProjectDawn.Animation.Editor.EventTypeManager.html#ProjectDawn_Animation_Editor_EventTypeManager_Types_
+  commentId: Overload:ProjectDawn.Animation.Editor.EventTypeManager.Types
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.EventTypeManager.Types
+  nameWithType: EventTypeManager.Types
 - uid: ProjectDawn.Animation.Editor.InertializerEditor
   name: InertializerEditor
   href: api/ProjectDawn.Animation.Editor.InertializerEditor.html
@@ -1049,6 +1154,12 @@ references:
   commentId: F:ProjectDawn.Animation.Editor.RigImporter.Animation.Clip
   fullName: ProjectDawn.Animation.Editor.RigImporter.Animation.Clip
   nameWithType: RigImporter.Animation.Clip
+- uid: ProjectDawn.Animation.Editor.RigImporter.Animation.Events
+  name: Events
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Animation.html#ProjectDawn_Animation_Editor_RigImporter_Animation_Events
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Animation.Events
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Animation.Events
+  nameWithType: RigImporter.Animation.Events
 - uid: ProjectDawn.Animation.Editor.RigImporter.Animation.Name
   name: Name
   href: api/ProjectDawn.Animation.Editor.RigImporter.Animation.html#ProjectDawn_Animation_Editor_RigImporter_Animation_Name
@@ -1099,6 +1210,36 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Editor.RigImporter.CollectRenderers
   nameWithType: RigImporter.CollectRenderers
+- uid: ProjectDawn.Animation.Editor.RigImporter.Event
+  name: RigImporter.Event
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Event.html
+  commentId: T:ProjectDawn.Animation.Editor.RigImporter.Event
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Event
+  nameWithType: RigImporter.Event
+- uid: ProjectDawn.Animation.Editor.RigImporter.Event.Data
+  name: Data
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Event.html#ProjectDawn_Animation_Editor_RigImporter_Event_Data
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Event.Data
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Event.Data
+  nameWithType: RigImporter.Event.Data
+- uid: ProjectDawn.Animation.Editor.RigImporter.Event.Length
+  name: Length
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Event.html#ProjectDawn_Animation_Editor_RigImporter_Event_Length
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Event.Length
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Event.Length
+  nameWithType: RigImporter.Event.Length
+- uid: ProjectDawn.Animation.Editor.RigImporter.Event.Offset
+  name: Offset
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Event.html#ProjectDawn_Animation_Editor_RigImporter_Event_Offset
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Event.Offset
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Event.Offset
+  nameWithType: RigImporter.Event.Offset
+- uid: ProjectDawn.Animation.Editor.RigImporter.Event.TypeName
+  name: TypeName
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Event.html#ProjectDawn_Animation_Editor_RigImporter_Event_TypeName
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Event.TypeName
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Event.TypeName
+  nameWithType: RigImporter.Event.TypeName
 - uid: ProjectDawn.Animation.Editor.RigImporter.Force4BlendWeights
   name: Force4BlendWeights
   href: api/ProjectDawn.Animation.Editor.RigImporter.html#ProjectDawn_Animation_Editor_RigImporter_Force4BlendWeights
@@ -1240,32 +1381,58 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Editor.RigImporterEditor.CreateInspectorGUI
   nameWithType: RigImporterEditor.CreateInspectorGUI
-- uid: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView
-  name: RebuildJointView()
-  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_RebuildJointView
-  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView
-  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView()
-  nameWithType: RigImporterEditor.RebuildJointView()
-- uid: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView*
-  name: RebuildJointView
-  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_RebuildJointView_
-  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview(UnityEngine.Rect)
+  name: DrawPreview(Rect)
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_DrawPreview_UnityEngine_Rect_
+  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview(UnityEngine.Rect)
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview(UnityEngine.Rect)
+  nameWithType: RigImporterEditor.DrawPreview(Rect)
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview*
+  name: DrawPreview
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_DrawPreview_
+  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview
   isSpec: "True"
-  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildJointView
-  nameWithType: RigImporterEditor.RebuildJointView
-- uid: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView
-  name: RebuildSkinView()
-  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_RebuildSkinView
-  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView
-  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView()
-  nameWithType: RigImporterEditor.RebuildSkinView()
-- uid: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView*
-  name: RebuildSkinView
-  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_RebuildSkinView_
-  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.DrawPreview
+  nameWithType: RigImporterEditor.DrawPreview
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI
+  name: HasPreviewGUI()
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_HasPreviewGUI
+  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI()
+  nameWithType: RigImporterEditor.HasPreviewGUI()
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI*
+  name: HasPreviewGUI
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_HasPreviewGUI_
+  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI
   isSpec: "True"
-  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.RebuildSkinView
-  nameWithType: RigImporterEditor.RebuildSkinView
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.HasPreviewGUI
+  nameWithType: RigImporterEditor.HasPreviewGUI
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)
+  name: OnInteractivePreviewGUI(Rect, GUIStyle)
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_OnInteractivePreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_
+  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)
+  nameWithType: RigImporterEditor.OnInteractivePreviewGUI(Rect, GUIStyle)
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI*
+  name: OnInteractivePreviewGUI
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_OnInteractivePreviewGUI_
+  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.OnInteractivePreviewGUI
+  nameWithType: RigImporterEditor.OnInteractivePreviewGUI
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)
+  name: OnPreviewGUI(Rect, GUIStyle)
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_OnPreviewGUI_UnityEngine_Rect_UnityEngine_GUIStyle_
+  commentId: M:ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)
+  nameWithType: RigImporterEditor.OnPreviewGUI(Rect, GUIStyle)
+- uid: ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI*
+  name: OnPreviewGUI
+  href: api/ProjectDawn.Animation.Editor.RigImporterEditor.html#ProjectDawn_Animation_Editor_RigImporterEditor_OnPreviewGUI_
+  commentId: Overload:ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Editor.RigImporterEditor.OnPreviewGUI
+  nameWithType: RigImporterEditor.OnPreviewGUI
 - uid: ProjectDawn.Animation.EntitiesExt
   name: EntitiesExt
   href: api/ProjectDawn.Animation.EntitiesExt.html
@@ -1804,6 +1971,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Hybrid.WriteRenderMeshArrayTransformSystem.OnUpdate
   nameWithType: WriteRenderMeshArrayTransformSystem.OnUpdate
+- uid: ProjectDawn.Animation.IEventData
+  name: IEventData
+  href: api/ProjectDawn.Animation.IEventData.html
+  commentId: T:ProjectDawn.Animation.IEventData
+  fullName: ProjectDawn.Animation.IEventData
+  nameWithType: IEventData
 - uid: ProjectDawn.Animation.InertializationCoefficients
   name: InertializationCoefficients
   href: api/ProjectDawn.Animation.InertializationCoefficients.html
@@ -2268,6 +2441,75 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Motion.Blend
   nameWithType: Motion.Blend
+- uid: ProjectDawn.Animation.Motion.Event
+  name: Motion.Event
+  href: api/ProjectDawn.Animation.Motion.Event.html
+  commentId: T:ProjectDawn.Animation.Motion.Event
+  fullName: ProjectDawn.Animation.Motion.Event
+  nameWithType: Motion.Event
+- uid: ProjectDawn.Animation.Motion.Event.DataOffset
+  name: DataOffset
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_DataOffset
+  commentId: F:ProjectDawn.Animation.Motion.Event.DataOffset
+  fullName: ProjectDawn.Animation.Motion.Event.DataOffset
+  nameWithType: Motion.Event.DataOffset
+- uid: ProjectDawn.Animation.Motion.Event.GetManagedType
+  name: GetManagedType()
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_GetManagedType
+  commentId: M:ProjectDawn.Animation.Motion.Event.GetManagedType
+  fullName: ProjectDawn.Animation.Motion.Event.GetManagedType()
+  nameWithType: Motion.Event.GetManagedType()
+- uid: ProjectDawn.Animation.Motion.Event.GetManagedType*
+  name: GetManagedType
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_GetManagedType_
+  commentId: Overload:ProjectDawn.Animation.Motion.Event.GetManagedType
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.Event.GetManagedType
+  nameWithType: Motion.Event.GetManagedType
+- uid: ProjectDawn.Animation.Motion.Event.GetTypeIndex
+  name: GetTypeIndex()
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_GetTypeIndex
+  commentId: M:ProjectDawn.Animation.Motion.Event.GetTypeIndex
+  fullName: ProjectDawn.Animation.Motion.Event.GetTypeIndex()
+  nameWithType: Motion.Event.GetTypeIndex()
+- uid: ProjectDawn.Animation.Motion.Event.GetTypeIndex*
+  name: GetTypeIndex
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_GetTypeIndex_
+  commentId: Overload:ProjectDawn.Animation.Motion.Event.GetTypeIndex
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.Event.GetTypeIndex
+  nameWithType: Motion.Event.GetTypeIndex
+- uid: ProjectDawn.Animation.Motion.Event.IsValid
+  name: IsValid
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_IsValid
+  commentId: P:ProjectDawn.Animation.Motion.Event.IsValid
+  fullName: ProjectDawn.Animation.Motion.Event.IsValid
+  nameWithType: Motion.Event.IsValid
+- uid: ProjectDawn.Animation.Motion.Event.IsValid*
+  name: IsValid
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_IsValid_
+  commentId: Overload:ProjectDawn.Animation.Motion.Event.IsValid
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.Event.IsValid
+  nameWithType: Motion.Event.IsValid
+- uid: ProjectDawn.Animation.Motion.Event.StableTypeHash
+  name: StableTypeHash
+  href: api/ProjectDawn.Animation.Motion.Event.html#ProjectDawn_Animation_Motion_Event_StableTypeHash
+  commentId: F:ProjectDawn.Animation.Motion.Event.StableTypeHash
+  fullName: ProjectDawn.Animation.Motion.Event.StableTypeHash
+  nameWithType: Motion.Event.StableTypeHash
+- uid: ProjectDawn.Animation.Motion.EventData
+  name: EventData
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_EventData
+  commentId: F:ProjectDawn.Animation.Motion.EventData
+  fullName: ProjectDawn.Animation.Motion.EventData
+  nameWithType: Motion.EventData
+- uid: ProjectDawn.Animation.Motion.Events
+  name: Events
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Events
+  commentId: F:ProjectDawn.Animation.Motion.Events
+  fullName: ProjectDawn.Animation.Motion.Events
+  nameWithType: Motion.Events
 - uid: ProjectDawn.Animation.Motion.FindAnimationIndex(Unity.Collections.FixedString64Bytes@)
   name: FindAnimationIndex(in FixedString64Bytes)
   href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_FindAnimationIndex_Unity_Collections_FixedString64Bytes__
@@ -2284,6 +2526,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Motion.FindAnimationIndex
   nameWithType: Motion.FindAnimationIndex
+- uid: ProjectDawn.Animation.Motion.GetEventData*
+  name: GetEventData
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_GetEventData_
+  commentId: Overload:ProjectDawn.Animation.Motion.GetEventData
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.GetEventData
+  nameWithType: Motion.GetEventData
+- uid: ProjectDawn.Animation.Motion.GetEventData``1(ProjectDawn.Animation.Motion.Event)
+  name: GetEventData<T>(Event)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_GetEventData__1_ProjectDawn_Animation_Motion_Event_
+  commentId: M:ProjectDawn.Animation.Motion.GetEventData``1(ProjectDawn.Animation.Motion.Event)
+  name.vb: GetEventData(Of T)(Event)
+  fullName: ProjectDawn.Animation.Motion.GetEventData<T>(ProjectDawn.Animation.Motion.Event)
+  fullName.vb: ProjectDawn.Animation.Motion.GetEventData(Of T)(ProjectDawn.Animation.Motion.Event)
+  nameWithType: Motion.GetEventData<T>(Motion.Event)
+  nameWithType.vb: Motion.GetEventData(Of T)(Motion.Event)
 - uid: ProjectDawn.Animation.Motion.GetJointLocalToParentTransform(System.Int32,System.Int32)
   name: GetJointLocalToParentTransform(int, int)
   href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_GetJointLocalToParentTransform_System_Int32_System_Int32_
@@ -2357,6 +2615,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Motion.GetPoseTime
   nameWithType: Motion.GetPoseTime
+- uid: ProjectDawn.Animation.Motion.HasEvent*
+  name: HasEvent
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_HasEvent_
+  commentId: Overload:ProjectDawn.Animation.Motion.HasEvent
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.HasEvent
+  nameWithType: Motion.HasEvent
+- uid: ProjectDawn.Animation.Motion.HasEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2)
+  name: HasEvent<T>(AnimationIndex, int2)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_HasEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2_
+  commentId: M:ProjectDawn.Animation.Motion.HasEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2)
+  name.vb: HasEvent(Of T)(AnimationIndex, int2)
+  fullName: ProjectDawn.Animation.Motion.HasEvent<T>(ProjectDawn.Animation.AnimationIndex, Unity.Mathematics.int2)
+  fullName.vb: ProjectDawn.Animation.Motion.HasEvent(Of T)(ProjectDawn.Animation.AnimationIndex, Unity.Mathematics.int2)
+  nameWithType: Motion.HasEvent<T>(AnimationIndex, int2)
+  nameWithType.vb: Motion.HasEvent(Of T)(AnimationIndex, int2)
 - uid: ProjectDawn.Animation.Motion.IsValidAnimationIndex(ProjectDawn.Animation.AnimationIndex)
   name: IsValidAnimationIndex(AnimationIndex)
   href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_IsValidAnimationIndex_ProjectDawn_Animation_AnimationIndex_
@@ -2518,6 +2792,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Motion.TryFindAnimationIndex
   nameWithType: Motion.TryFindAnimationIndex
+- uid: ProjectDawn.Animation.Motion.TryGetEvent*
+  name: TryGetEvent
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_TryGetEvent_
+  commentId: Overload:ProjectDawn.Animation.Motion.TryGetEvent
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.TryGetEvent
+  nameWithType: Motion.TryGetEvent
+- uid: ProjectDawn.Animation.Motion.TryGetEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2,``0@)
+  name: TryGetEvent<T>(AnimationIndex, int2, out T)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_TryGetEvent__1_ProjectDawn_Animation_AnimationIndex_Unity_Mathematics_int2___0__
+  commentId: M:ProjectDawn.Animation.Motion.TryGetEvent``1(ProjectDawn.Animation.AnimationIndex,Unity.Mathematics.int2,``0@)
+  name.vb: TryGetEvent(Of T)(AnimationIndex, int2, T)
+  fullName: ProjectDawn.Animation.Motion.TryGetEvent<T>(ProjectDawn.Animation.AnimationIndex, Unity.Mathematics.int2, out T)
+  fullName.vb: ProjectDawn.Animation.Motion.TryGetEvent(Of T)(ProjectDawn.Animation.AnimationIndex, Unity.Mathematics.int2, T)
+  nameWithType: Motion.TryGetEvent<T>(AnimationIndex, int2, out T)
+  nameWithType.vb: Motion.TryGetEvent(Of T)(AnimationIndex, int2, T)
 - uid: ProjectDawn.Animation.MotionRef
   name: MotionRef
   href: api/ProjectDawn.Animation.MotionRef.html
@@ -3941,6 +4231,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Rendering.RenderMeshArrayAuthoring.RecalculateBounds
   nameWithType: RenderMeshArrayAuthoring.RecalculateBounds
+- uid: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance(System.Int32,ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance)
+  name: SetInstance(int, Instance)
+  href: api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.html#ProjectDawn_Rendering_RenderMeshArrayAuthoring_SetInstance_System_Int32_ProjectDawn_Rendering_RenderMeshArrayAuthoring_Instance_
+  commentId: M:ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance(System.Int32,ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance)
+  name.vb: SetInstance(Integer, Instance)
+  fullName: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance(int, ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance)
+  fullName.vb: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance(Integer, ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance)
+  nameWithType: RenderMeshArrayAuthoring.SetInstance(int, RenderMeshArrayAuthoring.Instance)
+  nameWithType.vb: RenderMeshArrayAuthoring.SetInstance(Integer, RenderMeshArrayAuthoring.Instance)
+- uid: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance*
+  name: SetInstance
+  href: api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.html#ProjectDawn_Rendering_RenderMeshArrayAuthoring_SetInstance_
+  commentId: Overload:ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance
+  isSpec: "True"
+  fullName: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstance
+  nameWithType: RenderMeshArrayAuthoring.SetInstance
 - uid: ProjectDawn.Rendering.RenderMeshArrayAuthoring.SetInstances(ProjectDawn.Rendering.RenderMeshArrayAuthoring.Instance[])
   name: SetInstances(Instance[])
   href: api/ProjectDawn.Rendering.RenderMeshArrayAuthoring.html#ProjectDawn_Rendering_RenderMeshArrayAuthoring_SetInstances_ProjectDawn_Rendering_RenderMeshArrayAuthoring_Instance___
@@ -4361,6 +4667,30 @@ references:
   commentId: F:ProjectDawn.Sample.Spawner.TestMode.Normal
   fullName: ProjectDawn.Sample.Spawner.TestMode.Normal
   nameWithType: Spawner.TestMode.Normal
+- uid: ProjectDawn.Sample.Swing
+  name: Swing
+  href: api/ProjectDawn.Sample.Swing.html
+  commentId: T:ProjectDawn.Sample.Swing
+  fullName: ProjectDawn.Sample.Swing
+  nameWithType: Swing
+- uid: ProjectDawn.Sample.Swing.Animatron
+  name: Animatron
+  href: api/ProjectDawn.Sample.Swing.html#ProjectDawn_Sample_Swing_Animatron
+  commentId: F:ProjectDawn.Sample.Swing.Animatron
+  fullName: ProjectDawn.Sample.Swing.Animatron
+  nameWithType: Swing.Animatron
+- uid: ProjectDawn.Sample.SwingEvent
+  name: SwingEvent
+  href: api/ProjectDawn.Sample.SwingEvent.html
+  commentId: T:ProjectDawn.Sample.SwingEvent
+  fullName: ProjectDawn.Sample.SwingEvent
+  nameWithType: SwingEvent
+- uid: ProjectDawn.Sample.SwingEvent.Offset
+  name: Offset
+  href: api/ProjectDawn.Sample.SwingEvent.html#ProjectDawn_Sample_SwingEvent_Offset
+  commentId: F:ProjectDawn.Sample.SwingEvent.Offset
+  fullName: ProjectDawn.Sample.SwingEvent.Offset
+  nameWithType: SwingEvent.Offset
 - uid: ProjectDawn.Sample.TeamShift
   name: TeamShift
   href: api/ProjectDawn.Sample.TeamShift.html
