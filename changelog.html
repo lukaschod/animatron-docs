@@ -73,6 +73,35 @@
 <h1 id="changelog">Changelog</h1>
 
 <p>All notable changes to this package will be documented in this file. The format is based on <a href="http://keepachangelog.com/en/1.0.0/">Keep a Changelog</a></p>
+<h2 id="150---2025-10-22">[1.5.0] - 2025-10-22</h2>
+<ul>
+<li>Changed skin matrix buffer gpu structural code. Greatly reducing vram usage and allow even more animatrons</li>
+<li>Fixed crash on having few thousands of animatrons, now should able to support up to 4 million joints accross all the animatrons</li>
+<li>Added animatron settings</li>
+<li>Added animatron setting to control initial capacity of total joints, thus allowing user to reduce reallocations</li>
+<li>Added in animatron settings metrics to track vram usage and total joints currently in use</li>
+</ul>
+<h2 id="142---2025-10-17">[1.4.2] - 2025-10-17</h2>
+<ul>
+<li>Removed unused namespace in Animatron Authoring</li>
+</ul>
+<h2 id="141---2025-10-15">[1.4.1] - 2025-10-15</h2>
+<ul>
+<li>Added new option ApplyFootIK for humanoid animation baking</li>
+<li>Added hybrid integration with agents navigation</li>
+<li>Fixed warnings in unity 6 for used deprecated GetScriptingDefineSymbolsForGroup</li>
+<li>Fixed AffineTransform working that was caused by blendspace regression</li>
+</ul>
+<h2 id="140---2025-10-07">[1.4.0] - 2025-10-07</h2>
+<ul>
+<li>Added BlendSpace2D</li>
+<li>Added BlendSpace1D</li>
+<li>Added new option in animatron to store previous pose instead of calculating it from animation</li>
+</ul>
+<h2 id="131---2025-09-08">[1.3.1] - 2025-09-08</h2>
+<ul>
+<li>Fixed on entity instantiate having first frame artifacts</li>
+</ul>
 <h2 id="130---2025-08-28">[1.3.0] - 2025-08-28</h2>
 <ul>
 <li>Changed UI should be much easier to navigate</li>

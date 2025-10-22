@@ -62,6 +62,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.AnimatronStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.AnimatronStats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.AnimatronSystem.yml",
       "output": {
         ".html": {
@@ -106,6 +126,16 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.BaseColorProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.BlendSpace2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.BlendSpace2D.html"
         }
       },
       "version": ""
@@ -582,10 +612,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.PlayerSystemGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.PlayerSystemGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Animation.PoseSystem.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Animation.PoseSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.PoseUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.PoseUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Animation.PreviousPoseSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Animation.PreviousPoseSystem.html"
         }
       },
       "version": ""
@@ -846,6 +906,66 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Sample.Attachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatronSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace1DAnimatronSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatron.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatron.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatronSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Sample.BlendSpace2DAnimatronSystem.html"
         }
       },
       "version": ""

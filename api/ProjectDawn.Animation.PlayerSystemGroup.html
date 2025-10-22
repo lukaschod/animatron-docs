@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AnimatronSystemGroup
+    <title>Class PlayerSystemGroup
  </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AnimatronSystemGroup
+    <meta name="title" content="Class PlayerSystemGroup
  ">
     <meta name="generator" content="docfx ">
   
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.AnimatronSystemGroup">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Animation.PlayerSystemGroup">
 
 
-  <h1 id="ProjectDawn_Animation_AnimatronSystemGroup" data-uid="ProjectDawn.Animation.AnimatronSystemGroup" class="text-break">Class AnimatronSystemGroup
+  <h1 id="ProjectDawn_Animation_PlayerSystemGroup" data-uid="ProjectDawn.Animation.PlayerSystemGroup" class="text-break">Class PlayerSystemGroup
 </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -91,7 +91,7 @@
     <div class="level1"><span class="xref">ComponentSystemBase</span></div>
     <div class="level2"><span class="xref">SystemBase</span></div>
     <div class="level3"><span class="xref">ComponentSystemGroup</span></div>
-    <div class="level4"><span class="xref">AnimatronSystemGroup</span></div>
+    <div class="level4"><span class="xref">PlayerSystemGroup</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -335,10 +335,11 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.html">ProjectDawn</a>.<a class="xref" href="ProjectDawn.Animation.html">Animation</a></h6>
   <h6><strong>Assembly</strong>: ProjectDawn.Animatron.dll</h6>
-  <h5 id="ProjectDawn_Animation_AnimatronSystemGroup_syntax">Syntax</h5>
+  <h5 id="ProjectDawn_Animation_PlayerSystemGroup_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang- hljs">[UpdateBefore(typeof(TransformSystemGroup))]
-public class AnimatronSystemGroup : ComponentSystemGroup</code></pre>
+    <pre><code class="lang- hljs">[UpdateBefore(typeof(PoseSystem))]
+[UpdateInGroup(typeof(AnimatronSystemGroup))]
+public class PlayerSystemGroup : ComponentSystemGroup</code></pre>
   </div>
 </article>
           </div>
@@ -348,10 +349,10 @@ public class AnimatronSystemGroup : ComponentSystemGroup</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_AnimatronSystemGroup.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.AnimatronSystemGroup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/lukaschod/Animatron/new/master/apiSpec/new?filename=ProjectDawn_Animation_PlayerSystemGroup.md&amp;value=---%0Auid%3A%20ProjectDawn.Animation.PlayerSystemGroup%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/AnimatronSystemGroup.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lukaschod/Animatron/blob/master/Packages/com.projectdawn.animatron/ProjectDawn.Animatron/PlayerSystemGroup.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

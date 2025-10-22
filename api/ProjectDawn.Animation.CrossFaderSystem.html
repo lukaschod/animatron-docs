@@ -116,7 +116,7 @@
   <h5 id="ProjectDawn_Animation_CrossFaderSystem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang- hljs">[BurstCompile]
-[UpdateAfter(typeof(AnimatronSystem))]
+[UpdateAfter(typeof(PlayerSystemGroup))]
 [UpdateBefore(typeof(PoseSystem))]
 [UpdateInGroup(typeof(AnimatronSystemGroup))]
 public struct CrossFaderSystem : ISystem, ISystemCompilerGenerated</code></pre>

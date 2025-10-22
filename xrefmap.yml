@@ -337,6 +337,12 @@ references:
   commentId: F:ProjectDawn.Animation.AnimatronAuthoring.Player.Enabled
   fullName: ProjectDawn.Animation.AnimatronAuthoring.Player.Enabled
   nameWithType: AnimatronAuthoring.Player.Enabled
+- uid: ProjectDawn.Animation.AnimatronAuthoring.Player.PreviousPose
+  name: PreviousPose
+  href: api/ProjectDawn.Animation.AnimatronAuthoring.Player.html#ProjectDawn_Animation_AnimatronAuthoring_Player_PreviousPose
+  commentId: F:ProjectDawn.Animation.AnimatronAuthoring.Player.PreviousPose
+  fullName: ProjectDawn.Animation.AnimatronAuthoring.Player.PreviousPose
+  nameWithType: AnimatronAuthoring.Player.PreviousPose
 - uid: ProjectDawn.Animation.AnimatronAuthoring.Player.SamplingMode
   name: SamplingMode
   href: api/ProjectDawn.Animation.AnimatronAuthoring.Player.html#ProjectDawn_Animation_AnimatronAuthoring_Player_SamplingMode
@@ -491,6 +497,75 @@ references:
   commentId: F:ProjectDawn.Animation.AnimatronAuthoring.m_Skins
   fullName: ProjectDawn.Animation.AnimatronAuthoring.m_Skins
   nameWithType: AnimatronAuthoring.m_Skins
+- uid: ProjectDawn.Animation.AnimatronSettings
+  name: AnimatronSettings
+  href: api/ProjectDawn.Animation.AnimatronSettings.html
+  commentId: T:ProjectDawn.Animation.AnimatronSettings
+  fullName: ProjectDawn.Animation.AnimatronSettings
+  nameWithType: AnimatronSettings
+- uid: ProjectDawn.Animation.AnimatronSettings.#ctor
+  name: AnimatronSettings()
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings__ctor
+  commentId: M:ProjectDawn.Animation.AnimatronSettings.#ctor
+  name.vb: New()
+  fullName: ProjectDawn.Animation.AnimatronSettings.AnimatronSettings()
+  fullName.vb: ProjectDawn.Animation.AnimatronSettings.New()
+  nameWithType: AnimatronSettings.AnimatronSettings()
+  nameWithType.vb: AnimatronSettings.New()
+- uid: ProjectDawn.Animation.AnimatronSettings.#ctor*
+  name: AnimatronSettings
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings__ctor_
+  commentId: Overload:ProjectDawn.Animation.AnimatronSettings.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectDawn.Animation.AnimatronSettings.AnimatronSettings
+  fullName.vb: ProjectDawn.Animation.AnimatronSettings.New
+  nameWithType: AnimatronSettings.AnimatronSettings
+  nameWithType.vb: AnimatronSettings.New
+- uid: ProjectDawn.Animation.AnimatronSettings.Instance
+  name: Instance
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings_Instance
+  commentId: P:ProjectDawn.Animation.AnimatronSettings.Instance
+  fullName: ProjectDawn.Animation.AnimatronSettings.Instance
+  nameWithType: AnimatronSettings.Instance
+- uid: ProjectDawn.Animation.AnimatronSettings.Instance*
+  name: Instance
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings_Instance_
+  commentId: Overload:ProjectDawn.Animation.AnimatronSettings.Instance
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronSettings.Instance
+  nameWithType: AnimatronSettings.Instance
+- uid: ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints
+  name: ReserveTotalJoints
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings_ReserveTotalJoints
+  commentId: P:ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints
+  fullName: ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints
+  nameWithType: AnimatronSettings.ReserveTotalJoints
+- uid: ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints*
+  name: ReserveTotalJoints
+  href: api/ProjectDawn.Animation.AnimatronSettings.html#ProjectDawn_Animation_AnimatronSettings_ReserveTotalJoints_
+  commentId: Overload:ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.AnimatronSettings.ReserveTotalJoints
+  nameWithType: AnimatronSettings.ReserveTotalJoints
+- uid: ProjectDawn.Animation.AnimatronStats
+  name: AnimatronStats
+  href: api/ProjectDawn.Animation.AnimatronStats.html
+  commentId: T:ProjectDawn.Animation.AnimatronStats
+  fullName: ProjectDawn.Animation.AnimatronStats
+  nameWithType: AnimatronStats
+- uid: ProjectDawn.Animation.AnimatronStats.SkinMatrixBufferBytes
+  name: SkinMatrixBufferBytes
+  href: api/ProjectDawn.Animation.AnimatronStats.html#ProjectDawn_Animation_AnimatronStats_SkinMatrixBufferBytes
+  commentId: F:ProjectDawn.Animation.AnimatronStats.SkinMatrixBufferBytes
+  fullName: ProjectDawn.Animation.AnimatronStats.SkinMatrixBufferBytes
+  nameWithType: AnimatronStats.SkinMatrixBufferBytes
+- uid: ProjectDawn.Animation.AnimatronStats.TotalJoints
+  name: TotalJoints
+  href: api/ProjectDawn.Animation.AnimatronStats.html#ProjectDawn_Animation_AnimatronStats_TotalJoints
+  commentId: F:ProjectDawn.Animation.AnimatronStats.TotalJoints
+  fullName: ProjectDawn.Animation.AnimatronStats.TotalJoints
+  nameWithType: AnimatronStats.TotalJoints
 - uid: ProjectDawn.Animation.AnimatronSystem
   name: AnimatronSystem
   href: api/ProjectDawn.Animation.AnimatronSystem.html
@@ -707,6 +782,57 @@ references:
   commentId: F:ProjectDawn.Animation.BaseColorProperty.Value
   fullName: ProjectDawn.Animation.BaseColorProperty.Value
   nameWithType: BaseColorProperty.Value
+- uid: ProjectDawn.Animation.BlendSpace2D
+  name: BlendSpace2D
+  href: api/ProjectDawn.Animation.BlendSpace2D.html
+  commentId: T:ProjectDawn.Animation.BlendSpace2D
+  fullName: ProjectDawn.Animation.BlendSpace2D
+  nameWithType: BlendSpace2D
+- uid: ProjectDawn.Animation.BlendSpace2D.#ctor(System.ReadOnlySpan{ProjectDawn.Animation.AnimationIndex},System.ReadOnlySpan{Unity.Mathematics.float2},Unity.Collections.Allocator)
+  name: BlendSpace2D(ReadOnlySpan<AnimationIndex>, ReadOnlySpan<float2>, Allocator)
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D__ctor_System_ReadOnlySpan_ProjectDawn_Animation_AnimationIndex__System_ReadOnlySpan_Unity_Mathematics_float2__Unity_Collections_Allocator_
+  commentId: M:ProjectDawn.Animation.BlendSpace2D.#ctor(System.ReadOnlySpan{ProjectDawn.Animation.AnimationIndex},System.ReadOnlySpan{Unity.Mathematics.float2},Unity.Collections.Allocator)
+  name.vb: New(ReadOnlySpan(Of AnimationIndex), ReadOnlySpan(Of float2), Allocator)
+  fullName: ProjectDawn.Animation.BlendSpace2D.BlendSpace2D(System.ReadOnlySpan<ProjectDawn.Animation.AnimationIndex>, System.ReadOnlySpan<Unity.Mathematics.float2>, Unity.Collections.Allocator)
+  fullName.vb: ProjectDawn.Animation.BlendSpace2D.New(System.ReadOnlySpan(Of ProjectDawn.Animation.AnimationIndex), System.ReadOnlySpan(Of Unity.Mathematics.float2), Unity.Collections.Allocator)
+  nameWithType: BlendSpace2D.BlendSpace2D(ReadOnlySpan<AnimationIndex>, ReadOnlySpan<float2>, Allocator)
+  nameWithType.vb: BlendSpace2D.New(ReadOnlySpan(Of AnimationIndex), ReadOnlySpan(Of float2), Allocator)
+- uid: ProjectDawn.Animation.BlendSpace2D.#ctor*
+  name: BlendSpace2D
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D__ctor_
+  commentId: Overload:ProjectDawn.Animation.BlendSpace2D.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ProjectDawn.Animation.BlendSpace2D.BlendSpace2D
+  fullName.vb: ProjectDawn.Animation.BlendSpace2D.New
+  nameWithType: BlendSpace2D.BlendSpace2D
+  nameWithType.vb: BlendSpace2D.New
+- uid: ProjectDawn.Animation.BlendSpace2D.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D_Dispose
+  commentId: M:ProjectDawn.Animation.BlendSpace2D.Dispose
+  fullName: ProjectDawn.Animation.BlendSpace2D.Dispose()
+  nameWithType: BlendSpace2D.Dispose()
+- uid: ProjectDawn.Animation.BlendSpace2D.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D_Dispose_
+  commentId: Overload:ProjectDawn.Animation.BlendSpace2D.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.BlendSpace2D.Dispose
+  nameWithType: BlendSpace2D.Dispose
+- uid: ProjectDawn.Animation.BlendSpace2D.Evaluate(Unity.Mathematics.float2)
+  name: Evaluate(float2)
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D_Evaluate_Unity_Mathematics_float2_
+  commentId: M:ProjectDawn.Animation.BlendSpace2D.Evaluate(Unity.Mathematics.float2)
+  fullName: ProjectDawn.Animation.BlendSpace2D.Evaluate(Unity.Mathematics.float2)
+  nameWithType: BlendSpace2D.Evaluate(float2)
+- uid: ProjectDawn.Animation.BlendSpace2D.Evaluate*
+  name: Evaluate
+  href: api/ProjectDawn.Animation.BlendSpace2D.html#ProjectDawn_Animation_BlendSpace2D_Evaluate_
+  commentId: Overload:ProjectDawn.Animation.BlendSpace2D.Evaluate
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.BlendSpace2D.Evaluate
+  nameWithType: BlendSpace2D.Evaluate
 - uid: ProjectDawn.Animation.CrossFader
   name: CrossFader
   href: api/ProjectDawn.Animation.CrossFader.html
@@ -1148,6 +1274,12 @@ references:
   commentId: T:ProjectDawn.Animation.Editor.RigImporter.Animation
   fullName: ProjectDawn.Animation.Editor.RigImporter.Animation
   nameWithType: RigImporter.Animation
+- uid: ProjectDawn.Animation.Editor.RigImporter.Animation.ApplyFootIK
+  name: ApplyFootIK
+  href: api/ProjectDawn.Animation.Editor.RigImporter.Animation.html#ProjectDawn_Animation_Editor_RigImporter_Animation_ApplyFootIK
+  commentId: F:ProjectDawn.Animation.Editor.RigImporter.Animation.ApplyFootIK
+  fullName: ProjectDawn.Animation.Editor.RigImporter.Animation.ApplyFootIK
+  nameWithType: RigImporter.Animation.ApplyFootIK
 - uid: ProjectDawn.Animation.Editor.RigImporter.Animation.Clip
   name: Clip
   href: api/ProjectDawn.Animation.Editor.RigImporter.Animation.html#ProjectDawn_Animation_Editor_RigImporter_Animation_Clip
@@ -1610,6 +1742,22 @@ references:
   fullName.vb: ProjectDawn.Animation.EntitiesExt.TryGetSharedComponentManaged(Of T)(Unity.Entities.EntityManager, Unity.Entities.Entity, T)
   nameWithType: EntitiesExt.TryGetSharedComponentManaged<T>(EntityManager, Entity, out T)
   nameWithType.vb: EntitiesExt.TryGetSharedComponentManaged(Of T)(EntityManager, Entity, T)
+- uid: ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged*
+  name: TryGetSingletonManaged
+  href: api/ProjectDawn.Animation.EntitiesExt.html#ProjectDawn_Animation_EntitiesExt_TryGetSingletonManaged_
+  commentId: Overload:ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged
+  nameWithType: EntitiesExt.TryGetSingletonManaged
+- uid: ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged``1(Unity.Entities.EntityManager,``0@)
+  name: TryGetSingletonManaged<T>(EntityManager, out T)
+  href: api/ProjectDawn.Animation.EntitiesExt.html#ProjectDawn_Animation_EntitiesExt_TryGetSingletonManaged__1_Unity_Entities_EntityManager___0__
+  commentId: M:ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged``1(Unity.Entities.EntityManager,``0@)
+  name.vb: TryGetSingletonManaged(Of T)(EntityManager, T)
+  fullName: ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged<T>(Unity.Entities.EntityManager, out T)
+  fullName.vb: ProjectDawn.Animation.EntitiesExt.TryGetSingletonManaged(Of T)(Unity.Entities.EntityManager, T)
+  nameWithType: EntitiesExt.TryGetSingletonManaged<T>(EntityManager, out T)
+  nameWithType.vb: EntitiesExt.TryGetSingletonManaged(Of T)(EntityManager, T)
 - uid: ProjectDawn.Animation.Float3Inertia
   name: Float3Inertia
   href: api/ProjectDawn.Animation.Float3Inertia.html
@@ -2425,15 +2573,15 @@ references:
   commentId: F:ProjectDawn.Animation.Motion.Animations
   fullName: ProjectDawn.Animation.Motion.Animations
   nameWithType: Motion.Animations
-- uid: ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*,ProjectDawn.Animation.RigidTransform*,System.Single)
-  name: Blend(RigidTransform*, RigidTransform*, float)
-  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Blend_ProjectDawn_Animation_RigidTransform__ProjectDawn_Animation_RigidTransform__System_Single_
-  commentId: M:ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*,ProjectDawn.Animation.RigidTransform*,System.Single)
-  name.vb: Blend(RigidTransform*, RigidTransform*, Single)
-  fullName: ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*, ProjectDawn.Animation.RigidTransform*, float)
-  fullName.vb: ProjectDawn.Animation.Motion.Blend(ProjectDawn.Animation.RigidTransform*, ProjectDawn.Animation.RigidTransform*, Single)
-  nameWithType: Motion.Blend(RigidTransform*, RigidTransform*, float)
-  nameWithType.vb: Motion.Blend(RigidTransform*, RigidTransform*, Single)
+- uid: ProjectDawn.Animation.Motion.Blend(System.Span{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.Single)
+  name: Blend(Span<RigidTransform>, ReadOnlySpan<RigidTransform>, float)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Blend_System_Span_ProjectDawn_Animation_RigidTransform__System_ReadOnlySpan_ProjectDawn_Animation_RigidTransform__System_Single_
+  commentId: M:ProjectDawn.Animation.Motion.Blend(System.Span{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.Single)
+  name.vb: Blend(Span(Of RigidTransform), ReadOnlySpan(Of RigidTransform), Single)
+  fullName: ProjectDawn.Animation.Motion.Blend(System.Span<ProjectDawn.Animation.RigidTransform>, System.ReadOnlySpan<ProjectDawn.Animation.RigidTransform>, float)
+  fullName.vb: ProjectDawn.Animation.Motion.Blend(System.Span(Of ProjectDawn.Animation.RigidTransform), System.ReadOnlySpan(Of ProjectDawn.Animation.RigidTransform), Single)
+  nameWithType: Motion.Blend(Span<RigidTransform>, ReadOnlySpan<RigidTransform>, float)
+  nameWithType.vb: Motion.Blend(Span(Of RigidTransform), ReadOnlySpan(Of RigidTransform), Single)
 - uid: ProjectDawn.Animation.Motion.Blend*
   name: Blend
   href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Blend_
@@ -2441,6 +2589,22 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.Motion.Blend
   nameWithType: Motion.Blend
+- uid: ProjectDawn.Animation.Motion.Blend3(System.Span{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.Single,System.Single,System.Single)
+  name: Blend3(Span<RigidTransform>, ReadOnlySpan<RigidTransform>, ReadOnlySpan<RigidTransform>, float, float, float)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Blend3_System_Span_ProjectDawn_Animation_RigidTransform__System_ReadOnlySpan_ProjectDawn_Animation_RigidTransform__System_ReadOnlySpan_ProjectDawn_Animation_RigidTransform__System_Single_System_Single_System_Single_
+  commentId: M:ProjectDawn.Animation.Motion.Blend3(System.Span{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.ReadOnlySpan{ProjectDawn.Animation.RigidTransform},System.Single,System.Single,System.Single)
+  name.vb: Blend3(Span(Of RigidTransform), ReadOnlySpan(Of RigidTransform), ReadOnlySpan(Of RigidTransform), Single, Single, Single)
+  fullName: ProjectDawn.Animation.Motion.Blend3(System.Span<ProjectDawn.Animation.RigidTransform>, System.ReadOnlySpan<ProjectDawn.Animation.RigidTransform>, System.ReadOnlySpan<ProjectDawn.Animation.RigidTransform>, float, float, float)
+  fullName.vb: ProjectDawn.Animation.Motion.Blend3(System.Span(Of ProjectDawn.Animation.RigidTransform), System.ReadOnlySpan(Of ProjectDawn.Animation.RigidTransform), System.ReadOnlySpan(Of ProjectDawn.Animation.RigidTransform), Single, Single, Single)
+  nameWithType: Motion.Blend3(Span<RigidTransform>, ReadOnlySpan<RigidTransform>, ReadOnlySpan<RigidTransform>, float, float, float)
+  nameWithType.vb: Motion.Blend3(Span(Of RigidTransform), ReadOnlySpan(Of RigidTransform), ReadOnlySpan(Of RigidTransform), Single, Single, Single)
+- uid: ProjectDawn.Animation.Motion.Blend3*
+  name: Blend3
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_Blend3_
+  commentId: Overload:ProjectDawn.Animation.Motion.Blend3
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.Blend3
+  nameWithType: Motion.Blend3
 - uid: ProjectDawn.Animation.Motion.Event
   name: Motion.Event
   href: api/ProjectDawn.Animation.Motion.Event.html
@@ -2686,6 +2850,38 @@ references:
   commentId: F:ProjectDawn.Animation.Motion.PoseTime.Theta
   fullName: ProjectDawn.Animation.Motion.PoseTime.Theta
   nameWithType: Motion.PoseTime.Theta
+- uid: ProjectDawn.Animation.Motion.SampleBlendSpace1D(System.ReadOnlySpan{ProjectDawn.Animation.AnimationIndex},System.ReadOnlySpan{System.Single},System.Single,System.Single,System.Span{ProjectDawn.Animation.RigidTransform})
+  name: SampleBlendSpace1D(ReadOnlySpan<AnimationIndex>, ReadOnlySpan<float>, float, float, Span<RigidTransform>)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_SampleBlendSpace1D_System_ReadOnlySpan_ProjectDawn_Animation_AnimationIndex__System_ReadOnlySpan_System_Single__System_Single_System_Single_System_Span_ProjectDawn_Animation_RigidTransform__
+  commentId: M:ProjectDawn.Animation.Motion.SampleBlendSpace1D(System.ReadOnlySpan{ProjectDawn.Animation.AnimationIndex},System.ReadOnlySpan{System.Single},System.Single,System.Single,System.Span{ProjectDawn.Animation.RigidTransform})
+  name.vb: SampleBlendSpace1D(ReadOnlySpan(Of AnimationIndex), ReadOnlySpan(Of Single), Single, Single, Span(Of RigidTransform))
+  fullName: ProjectDawn.Animation.Motion.SampleBlendSpace1D(System.ReadOnlySpan<ProjectDawn.Animation.AnimationIndex>, System.ReadOnlySpan<float>, float, float, System.Span<ProjectDawn.Animation.RigidTransform>)
+  fullName.vb: ProjectDawn.Animation.Motion.SampleBlendSpace1D(System.ReadOnlySpan(Of ProjectDawn.Animation.AnimationIndex), System.ReadOnlySpan(Of Single), Single, Single, System.Span(Of ProjectDawn.Animation.RigidTransform))
+  nameWithType: Motion.SampleBlendSpace1D(ReadOnlySpan<AnimationIndex>, ReadOnlySpan<float>, float, float, Span<RigidTransform>)
+  nameWithType.vb: Motion.SampleBlendSpace1D(ReadOnlySpan(Of AnimationIndex), ReadOnlySpan(Of Single), Single, Single, Span(Of RigidTransform))
+- uid: ProjectDawn.Animation.Motion.SampleBlendSpace1D*
+  name: SampleBlendSpace1D
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_SampleBlendSpace1D_
+  commentId: Overload:ProjectDawn.Animation.Motion.SampleBlendSpace1D
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.SampleBlendSpace1D
+  nameWithType: Motion.SampleBlendSpace1D
+- uid: ProjectDawn.Animation.Motion.SampleBlendSpace2D(ProjectDawn.Animation.BlendSpace2D,Unity.Mathematics.float2,System.Single,System.Span{ProjectDawn.Animation.RigidTransform})
+  name: SampleBlendSpace2D(BlendSpace2D, float2, float, Span<RigidTransform>)
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_SampleBlendSpace2D_ProjectDawn_Animation_BlendSpace2D_Unity_Mathematics_float2_System_Single_System_Span_ProjectDawn_Animation_RigidTransform__
+  commentId: M:ProjectDawn.Animation.Motion.SampleBlendSpace2D(ProjectDawn.Animation.BlendSpace2D,Unity.Mathematics.float2,System.Single,System.Span{ProjectDawn.Animation.RigidTransform})
+  name.vb: SampleBlendSpace2D(BlendSpace2D, float2, Single, Span(Of RigidTransform))
+  fullName: ProjectDawn.Animation.Motion.SampleBlendSpace2D(ProjectDawn.Animation.BlendSpace2D, Unity.Mathematics.float2, float, System.Span<ProjectDawn.Animation.RigidTransform>)
+  fullName.vb: ProjectDawn.Animation.Motion.SampleBlendSpace2D(ProjectDawn.Animation.BlendSpace2D, Unity.Mathematics.float2, Single, System.Span(Of ProjectDawn.Animation.RigidTransform))
+  nameWithType: Motion.SampleBlendSpace2D(BlendSpace2D, float2, float, Span<RigidTransform>)
+  nameWithType.vb: Motion.SampleBlendSpace2D(BlendSpace2D, float2, Single, Span(Of RigidTransform))
+- uid: ProjectDawn.Animation.Motion.SampleBlendSpace2D*
+  name: SampleBlendSpace2D
+  href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_SampleBlendSpace2D_
+  commentId: Overload:ProjectDawn.Animation.Motion.SampleBlendSpace2D
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.Motion.SampleBlendSpace2D
+  nameWithType: Motion.SampleBlendSpace2D
 - uid: ProjectDawn.Animation.Motion.SamplePose(ProjectDawn.Animation.Motion.PoseTime@,ProjectDawn.Animation.SamplingMode,System.Span{ProjectDawn.Animation.RigidTransform})
   name: SamplePose(in PoseTime, SamplingMode, Span<RigidTransform>)
   href: api/ProjectDawn.Animation.Motion.html#ProjectDawn_Animation_Motion_SamplePose_ProjectDawn_Animation_Motion_PoseTime__ProjectDawn_Animation_SamplingMode_System_Span_ProjectDawn_Animation_RigidTransform__
@@ -2846,6 +3042,12 @@ references:
   commentId: F:ProjectDawn.Animation.MotionRef.Value
   fullName: ProjectDawn.Animation.MotionRef.Value
   nameWithType: MotionRef.Value
+- uid: ProjectDawn.Animation.PlayerSystemGroup
+  name: PlayerSystemGroup
+  href: api/ProjectDawn.Animation.PlayerSystemGroup.html
+  commentId: T:ProjectDawn.Animation.PlayerSystemGroup
+  fullName: ProjectDawn.Animation.PlayerSystemGroup
+  nameWithType: PlayerSystemGroup
 - uid: ProjectDawn.Animation.PoseSystem
   name: PoseSystem
   href: api/ProjectDawn.Animation.PoseSystem.html
@@ -2868,6 +3070,77 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.PoseSystem.OnCreateForCompiler
   nameWithType: PoseSystem.OnCreateForCompiler
+- uid: ProjectDawn.Animation.PoseUtility
+  name: PoseUtility
+  href: api/ProjectDawn.Animation.PoseUtility.html
+  commentId: T:ProjectDawn.Animation.PoseUtility
+  fullName: ProjectDawn.Animation.PoseUtility
+  nameWithType: PoseUtility
+- uid: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray{ProjectDawn.Animation.JointPose})
+  name: AsTransformArray(NativeArray<JointPose>)
+  href: api/ProjectDawn.Animation.PoseUtility.html#ProjectDawn_Animation_PoseUtility_AsTransformArray_Unity_Collections_NativeArray_ProjectDawn_Animation_JointPose__
+  commentId: M:ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray{ProjectDawn.Animation.JointPose})
+  name.vb: AsTransformArray(NativeArray(Of JointPose))
+  fullName: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray<ProjectDawn.Animation.JointPose>)
+  fullName.vb: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray(Of ProjectDawn.Animation.JointPose))
+  nameWithType: PoseUtility.AsTransformArray(NativeArray<JointPose>)
+  nameWithType.vb: PoseUtility.AsTransformArray(NativeArray(Of JointPose))
+- uid: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray{ProjectDawn.Animation.JointPreviousPose})
+  name: AsTransformArray(NativeArray<JointPreviousPose>)
+  href: api/ProjectDawn.Animation.PoseUtility.html#ProjectDawn_Animation_PoseUtility_AsTransformArray_Unity_Collections_NativeArray_ProjectDawn_Animation_JointPreviousPose__
+  commentId: M:ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray{ProjectDawn.Animation.JointPreviousPose})
+  name.vb: AsTransformArray(NativeArray(Of JointPreviousPose))
+  fullName: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray<ProjectDawn.Animation.JointPreviousPose>)
+  fullName.vb: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Collections.NativeArray(Of ProjectDawn.Animation.JointPreviousPose))
+  nameWithType: PoseUtility.AsTransformArray(NativeArray<JointPreviousPose>)
+  nameWithType.vb: PoseUtility.AsTransformArray(NativeArray(Of JointPreviousPose))
+- uid: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer{ProjectDawn.Animation.JointPose})
+  name: AsTransformArray(DynamicBuffer<JointPose>)
+  href: api/ProjectDawn.Animation.PoseUtility.html#ProjectDawn_Animation_PoseUtility_AsTransformArray_Unity_Entities_DynamicBuffer_ProjectDawn_Animation_JointPose__
+  commentId: M:ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer{ProjectDawn.Animation.JointPose})
+  name.vb: AsTransformArray(DynamicBuffer(Of JointPose))
+  fullName: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer<ProjectDawn.Animation.JointPose>)
+  fullName.vb: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer(Of ProjectDawn.Animation.JointPose))
+  nameWithType: PoseUtility.AsTransformArray(DynamicBuffer<JointPose>)
+  nameWithType.vb: PoseUtility.AsTransformArray(DynamicBuffer(Of JointPose))
+- uid: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer{ProjectDawn.Animation.JointPreviousPose})
+  name: AsTransformArray(DynamicBuffer<JointPreviousPose>)
+  href: api/ProjectDawn.Animation.PoseUtility.html#ProjectDawn_Animation_PoseUtility_AsTransformArray_Unity_Entities_DynamicBuffer_ProjectDawn_Animation_JointPreviousPose__
+  commentId: M:ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer{ProjectDawn.Animation.JointPreviousPose})
+  name.vb: AsTransformArray(DynamicBuffer(Of JointPreviousPose))
+  fullName: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer<ProjectDawn.Animation.JointPreviousPose>)
+  fullName.vb: ProjectDawn.Animation.PoseUtility.AsTransformArray(Unity.Entities.DynamicBuffer(Of ProjectDawn.Animation.JointPreviousPose))
+  nameWithType: PoseUtility.AsTransformArray(DynamicBuffer<JointPreviousPose>)
+  nameWithType.vb: PoseUtility.AsTransformArray(DynamicBuffer(Of JointPreviousPose))
+- uid: ProjectDawn.Animation.PoseUtility.AsTransformArray*
+  name: AsTransformArray
+  href: api/ProjectDawn.Animation.PoseUtility.html#ProjectDawn_Animation_PoseUtility_AsTransformArray_
+  commentId: Overload:ProjectDawn.Animation.PoseUtility.AsTransformArray
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.PoseUtility.AsTransformArray
+  nameWithType: PoseUtility.AsTransformArray
+- uid: ProjectDawn.Animation.PreviousPoseSystem
+  name: PreviousPoseSystem
+  href: api/ProjectDawn.Animation.PreviousPoseSystem.html
+  commentId: T:ProjectDawn.Animation.PreviousPoseSystem
+  fullName: ProjectDawn.Animation.PreviousPoseSystem
+  nameWithType: PreviousPoseSystem
+- uid: ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Animation.PreviousPoseSystem.html#ProjectDawn_Animation_PreviousPoseSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: PreviousPoseSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: PreviousPoseSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Animation.PreviousPoseSystem.html#ProjectDawn_Animation_PreviousPoseSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.PreviousPoseSystem.OnCreateForCompiler
+  nameWithType: PreviousPoseSystem.OnCreateForCompiler
 - uid: ProjectDawn.Animation.QuaternionInertia
   name: QuaternionInertia
   href: api/ProjectDawn.Animation.QuaternionInertia.html
@@ -3704,15 +3977,15 @@ references:
   commentId: F:ProjectDawn.Animation.SkinMatrixBuffer.Handle
   fullName: ProjectDawn.Animation.SkinMatrixBuffer.Handle
   nameWithType: SkinMatrixBuffer.Handle
-- uid: ProjectDawn.Animation.SkinMatrixBuffer.Map(System.Int32)
-  name: Map(int)
-  href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_Map_System_Int32_
-  commentId: M:ProjectDawn.Animation.SkinMatrixBuffer.Map(System.Int32)
-  name.vb: Map(Integer)
-  fullName: ProjectDawn.Animation.SkinMatrixBuffer.Map(int)
-  fullName.vb: ProjectDawn.Animation.SkinMatrixBuffer.Map(Integer)
-  nameWithType: SkinMatrixBuffer.Map(int)
-  nameWithType.vb: SkinMatrixBuffer.Map(Integer)
+- uid: ProjectDawn.Animation.SkinMatrixBuffer.Map(System.Int32,System.Int32)
+  name: Map(int, int)
+  href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_Map_System_Int32_System_Int32_
+  commentId: M:ProjectDawn.Animation.SkinMatrixBuffer.Map(System.Int32,System.Int32)
+  name.vb: Map(Integer, Integer)
+  fullName: ProjectDawn.Animation.SkinMatrixBuffer.Map(int, int)
+  fullName.vb: ProjectDawn.Animation.SkinMatrixBuffer.Map(Integer, Integer)
+  nameWithType: SkinMatrixBuffer.Map(int, int)
+  nameWithType.vb: SkinMatrixBuffer.Map(Integer, Integer)
 - uid: ProjectDawn.Animation.SkinMatrixBuffer.Map*
   name: Map
   href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_Map_
@@ -3720,6 +3993,19 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Animation.SkinMatrixBuffer.Map
   nameWithType: SkinMatrixBuffer.Map
+- uid: ProjectDawn.Animation.SkinMatrixBuffer.MaxSize
+  name: MaxSize
+  href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_MaxSize
+  commentId: P:ProjectDawn.Animation.SkinMatrixBuffer.MaxSize
+  fullName: ProjectDawn.Animation.SkinMatrixBuffer.MaxSize
+  nameWithType: SkinMatrixBuffer.MaxSize
+- uid: ProjectDawn.Animation.SkinMatrixBuffer.MaxSize*
+  name: MaxSize
+  href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_MaxSize_
+  commentId: Overload:ProjectDawn.Animation.SkinMatrixBuffer.MaxSize
+  isSpec: "True"
+  fullName: ProjectDawn.Animation.SkinMatrixBuffer.MaxSize
+  nameWithType: SkinMatrixBuffer.MaxSize
 - uid: ProjectDawn.Animation.SkinMatrixBuffer.ResizePassBufferIfRequired(System.Int32)
   name: ResizePassBufferIfRequired(int)
   href: api/ProjectDawn.Animation.SkinMatrixBuffer.html#ProjectDawn_Animation_SkinMatrixBuffer_ResizePassBufferIfRequired_System_Int32_
@@ -4321,6 +4607,86 @@ references:
   commentId: F:ProjectDawn.Sample.Attachment.JointName
   fullName: ProjectDawn.Sample.Attachment.JointName
   nameWithType: Attachment.JointName
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatron
+  name: BlendSpace1DAnimatron
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatron.html
+  commentId: T:ProjectDawn.Sample.BlendSpace1DAnimatron
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatron
+  nameWithType: BlendSpace1DAnimatron
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatronPlayer
+  name: BlendSpace1DAnimatronPlayer
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.html
+  commentId: T:ProjectDawn.Sample.BlendSpace1DAnimatronPlayer
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatronPlayer
+  nameWithType: BlendSpace1DAnimatronPlayer
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.Time
+  name: Time
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.html#ProjectDawn_Sample_BlendSpace1DAnimatronPlayer_Time
+  commentId: F:ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.Time
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatronPlayer.Time
+  nameWithType: BlendSpace1DAnimatronPlayer.Time
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatronSystem
+  name: BlendSpace1DAnimatronSystem
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatronSystem.html
+  commentId: T:ProjectDawn.Sample.BlendSpace1DAnimatronSystem
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatronSystem
+  nameWithType: BlendSpace1DAnimatronSystem
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatronSystem.html#ProjectDawn_Sample_BlendSpace1DAnimatronSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: BlendSpace1DAnimatronSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: BlendSpace1DAnimatronSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Sample.BlendSpace1DAnimatronSystem.html#ProjectDawn_Sample_BlendSpace1DAnimatronSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Sample.BlendSpace1DAnimatronSystem.OnCreateForCompiler
+  nameWithType: BlendSpace1DAnimatronSystem.OnCreateForCompiler
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatron
+  name: BlendSpace2DAnimatron
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatron.html
+  commentId: T:ProjectDawn.Sample.BlendSpace2DAnimatron
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatron
+  nameWithType: BlendSpace2DAnimatron
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatronPlayer
+  name: BlendSpace2DAnimatronPlayer
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.html
+  commentId: T:ProjectDawn.Sample.BlendSpace2DAnimatronPlayer
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatronPlayer
+  nameWithType: BlendSpace2DAnimatronPlayer
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.Time
+  name: Time
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.html#ProjectDawn_Sample_BlendSpace2DAnimatronPlayer_Time
+  commentId: F:ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.Time
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatronPlayer.Time
+  nameWithType: BlendSpace2DAnimatronPlayer.Time
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatronSystem
+  name: BlendSpace2DAnimatronSystem
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatronSystem.html
+  commentId: T:ProjectDawn.Sample.BlendSpace2DAnimatronSystem
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatronSystem
+  nameWithType: BlendSpace2DAnimatronSystem
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name: OnCreateForCompiler(ref SystemState)
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatronSystem.html#ProjectDawn_Sample_BlendSpace2DAnimatronSystem_OnCreateForCompiler_Unity_Entities_SystemState__
+  commentId: M:ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState@)
+  name.vb: OnCreateForCompiler(SystemState)
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler(ref Unity.Entities.SystemState)
+  fullName.vb: ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler(Unity.Entities.SystemState)
+  nameWithType: BlendSpace2DAnimatronSystem.OnCreateForCompiler(ref SystemState)
+  nameWithType.vb: BlendSpace2DAnimatronSystem.OnCreateForCompiler(SystemState)
+- uid: ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler*
+  name: OnCreateForCompiler
+  href: api/ProjectDawn.Sample.BlendSpace2DAnimatronSystem.html#ProjectDawn_Sample_BlendSpace2DAnimatronSystem_OnCreateForCompiler_
+  commentId: Overload:ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler
+  isSpec: "True"
+  fullName: ProjectDawn.Sample.BlendSpace2DAnimatronSystem.OnCreateForCompiler
+  nameWithType: BlendSpace2DAnimatronSystem.OnCreateForCompiler
 - uid: ProjectDawn.Sample.BlendTestSystem
   name: BlendTestSystem
   href: api/ProjectDawn.Sample.BlendTestSystem.html
